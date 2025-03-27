@@ -554,10 +554,6 @@ footer {
     inset: 0;
   }
 
-  &.about-bg {
-    background-position: center -190px;
-  }
-
   .container {
     position: relative;
   }
@@ -615,6 +611,14 @@ footer {
         padding-right: 10px;
         color: color-mix(in srgb, var(--default-color), transparent 70%);
       }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-title {
+    &.about-bg {
+      background-position: center -190px;
     }
   }
 }
