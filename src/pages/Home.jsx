@@ -62,7 +62,7 @@ const Home = () => {
         </div>
       </section> */}
       <section id="hero" className="hero section dark-background">
-        <img src="/assets/images/hero-bg.jpg" alt="" data-aos="fade-in" />
+        <img src="/assets/images/home/hero-bg.jpg" alt="" data-aos="fade-in" />
           <div className="container">
             <div className="row">
               <div className="col-xl-4">
@@ -71,8 +71,8 @@ const Home = () => {
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis cum recusandae eum laboriosam voluptatem repudiandae odio, vel exercitationem officiis provident minima. </p>
                 </blockquote>
                 <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
-                  <a href="#about" className="btn-get-started">Get Started</a>
-                  <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" className="glightbox btn-watch-video d-flex align-items-center"><i className="bi bi-play-circle"></i><span>Watch Video</span></a>
+                  <a href="#about" className="btn-get-started">Call To Action</a>
+                  <a href="https://www.youtube.com/shorts/RqrIaWER0m8" className="glightbox btn-watch-video d-flex align-items-center" target="_blank"><i className="bi bi-play-circle"></i><span>Watch Video</span></a>
                 </div>
               </div>
             </div>

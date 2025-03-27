@@ -46,8 +46,8 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color:rgba(255, 255, 255, 0);
-  --heading-color:#ffffff;
+  --background-color: rgba(255, 255, 255, 0);
+  --heading-color: #ffffff;
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 15px 0;
@@ -78,7 +78,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: rgba(23, 40, 59, 1);
+  --background-color: rgba(53, 79, 82, 1);
 }
 
 /*--------------------------------------------------------------
@@ -106,7 +106,7 @@ h6 {
       padding: 18px 15px;
       font-size: 16px;
       font-family: var(--nav-font);
-      font-weight: 400;
+      font-weight: 600;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -126,7 +126,8 @@ h6 {
         transition: 0.3s;
       }
 
-      i, &:focus i {
+      i,
+      &:focus i {
         font-size: 12px;
         line-height: 0;
         margin-left: 5px;
@@ -139,7 +140,7 @@ h6 {
         padding-right: 0;
       }
 
-      &:hover > a {
+      &:hover>a {
         color: var(--nav-hover-color);
       }
     }
@@ -187,12 +188,13 @@ h6 {
           }
         }
 
-        .active:hover, li:hover > a {
+        .active:hover,
+        li:hover>a {
           color: var(--nav-dropdown-hover-color);
         }
       }
 
-      &:hover > ul {
+      &:hover>ul {
         opacity: 1;
         top: 100%;
         visibility: visible;
@@ -205,7 +207,7 @@ h6 {
           visibility: hidden;
         }
 
-        &:hover > ul {
+        &:hover>ul {
           opacity: 1;
           top: 0;
           left: -100%;
@@ -271,7 +273,8 @@ h6 {
         transition: 0.3s;
       }
 
-      i, &:focus i {
+      i,
+      &:focus i {
         font-size: 12px;
         line-height: 0;
         margin-left: 5px;
@@ -285,7 +288,8 @@ h6 {
         background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
       }
 
-      i:hover, &:focus i:hover {
+      i:hover,
+      &:focus i:hover {
         background-color: var(--accent-color);
         color: var(--contrast-color);
       }
@@ -302,7 +306,8 @@ h6 {
         color: var(--nav-dropdown-hover-color);
       }
 
-      i, &:focus i {
+      i,
+      &:focus i {
         background-color: var(--accent-color);
         color: var(--contrast-color);
         transform: rotate(180deg);
@@ -326,7 +331,7 @@ h6 {
         }
       }
 
-      > .dropdown-active {
+      >.dropdown-active {
         display: block;
         background-color: rgba(33, 37, 41, 0.03);
       }
@@ -353,7 +358,7 @@ h6 {
       background: rgba(33, 37, 41, 0.8);
       transition: 0.3s;
 
-      > ul {
+      >ul {
         display: block;
       }
     }
@@ -510,7 +515,7 @@ footer {
   }
 
   &:hover {
-    background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+    background-color: color-mix(in srgb, var(--accent-color), transparent 50%);
     color: var(--contrast-color);
   }
 
@@ -549,6 +554,10 @@ footer {
     inset: 0;
   }
 
+  &.about-bg {
+    background-position: center -190px;
+  }
+
   .container {
     position: relative;
   }
@@ -557,6 +566,34 @@ footer {
     font-size: 42px;
     font-weight: 700;
     margin-bottom: 10px;
+
+    &:after {
+      content: "";
+      position: relative;
+      display: block;
+      display: block;
+      width: 50px;
+      height: 3px;
+      background: var(--accent-color);
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      margin-top: 10px;
+    }
+  }
+
+  span {
+    position: absolute;
+    top: 8px;
+    color: color-mix(in srgb, var(--accent-color), transparent 70%) !important;
+    left: 0;
+    right: 0;
+    // z-index: 1;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 0;
+    opacity: 0.7;
   }
 
   .breadcrumbs ol {
@@ -569,7 +606,7 @@ footer {
     font-size: 16px;
     font-weight: 400;
 
-    li + li {
+    li+li {
       padding-left: 10px;
 
       &::before {
@@ -607,13 +644,13 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   position: relative;
 
   h2 {
     font-size: 32px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-bottom: 20px;
     position: relative;
 
@@ -665,7 +702,8 @@ section,
     z-index: 1;
   }
 
-  .container, .container-fluid {
+  .container,
+  .container-fluid {
     z-index: 3;
     position: relative;
   }
@@ -696,7 +734,7 @@ section,
     transition: 0.5s;
 
     &:hover {
-      background: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+      background: color-mix(in srgb, var(--accent-color) 90%, white 50%);
     }
   }
 
@@ -730,10 +768,11 @@ section,
     position: absolute;
     content: "";
     width: 44%;
-    background-image: linear-gradient(180deg, color-mix(in srgb, var(--background-color), transparent 15%), color-mix(in srgb, var(--background-color), transparent 15%) 100%), linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0) 100%);
+    background-image: linear-gradient(180deg, color-mix(in srgb, var(--background-color), transparent 50%), color-mix(in srgb, var(--background-color), transparent 15%) 100%), linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0) 100%);
     top: 0;
     bottom: 0;
     z-index: 2;
+    opacity: 0.7;
   }
 }
 
@@ -744,12 +783,102 @@ section,
       line-height: 36px;
     }
 
-    .btn-get-started, .btn-watch-video {
+    .btn-get-started,
+    .btn-watch-video {
       font-size: 13px;
     }
   }
 }
 
+/*--------------------------------------------------------------
+# Why Us Section
+--------------------------------------------------------------*/
+.why-us {
+  .img-bg {
+    min-height: 500px;
+    position: relative;
+
+    img {
+      position: absolute;
+      inset: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+    }
+  }
+
+  .slides {
+    background-color: color-mix(in srgb, var(--default-color), transparent 97%);
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: 300;
+    color: color-mix(in srgb, var(--default-color), transparent 30%);
+  }
+
+  .swiper {
+    margin: 140px 140px 120px 140px;
+    overflow: hidden;
+  }
+
+  .swiper-wrapper {
+    height: auto;
+  }
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 24px;
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+  }
+
+  .swiper-button-prev {
+    left: 80px;
+  }
+
+  .swiper-button-next {
+    right: 80px;
+  }
+
+  .swiper-pagination {
+    margin-top: 30px;
+    position: relative;
+
+    .swiper-pagination-bullet {
+      background-color: color-mix(in srgb, var(--default-color), transparent 50%);
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: var(--accent-color);
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .why-us {
+    .swiper {
+      margin: 60px 60px 40px 60px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .why-us .swiper {
+    margin: 40px 40px 20px 40px;
+  }
+}
 
 
 /*--------------------------------------------------------------

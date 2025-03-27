@@ -2,40 +2,118 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
+
+<script type="application/json" className="swiper-config">
+{JSON.stringify({ // Use JSON.stringify() to convert the object to a string
+  "loop": true,
+  "speed": 600,
+  "autoplay": {
+    "delay": 5000
+  },
+  "slidesPerView": "auto",
+  "centeredSlides": true,
+  "pagination": {
+    "el": ".swiper-pagination",
+    "type": "bullets",
+    "clickable": true
+  },
+  "navigation": {
+    "nextEl": ".swiper-button-next",
+    "prevEl": ".swiper-button-prev"
+  }
+})}
+</script>
+
 const About = () => {
   return (
     <>
       {/* Page Title */}
-      <div class="page-title dark-background" data-aos="fade" style={{backgroundImage: 'url(assets/images/about/page-title-bg.jpg)',
-      }}>
-        <div class="container">
-          <h1>About</h1>
-          <nav class="breadcrumbs">
+      <div className="page-title dark-background about-bg" data-aos="fade" style={{ backgroundImage: 'url(assets/images/about/page-title-bg.jpg)' }}>
+        <div className="container">
+          <span>About Us</span>
+          <h1>About Us</h1>
+          <p>Understanding Your Needs, Delivering Results</p>
+          {/* <nav className="breadcrumbs">
             <ol>
               <li><a href="index.html">Home</a></li>
-              <li class="current">About</li>
+              <li className="current">About</li>
             </ol>
-          </nav>
+          </nav> */}
         </div>
       </div>
+
       {/* About Us Section */}
       <section id="about" className="about section">
         <div className="container section-title" data-aos="fade-up">
-          <span>About Us</span>
-          <h2>About Us</h2>
-          <p>Your Path to Radiant Health and Beauty</p>
+          <h2>Brad J. Ahn</h2>
+          {/* <p>Your Path to Radiant Health and Beauty</p> */}
         </div>
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row gy-4 justify-content-center">
             <div className="col-lg-4">
-              <img src="/assets/images/about/about-us.jpg" className="img-fluid" alt="About Us" />
+              <img src="/assets/images/about/brad-ahn.jpg" className="img-fluid" alt="About Us" />
             </div>
             <div className="col-lg-8 content">
-              <h4>A Woman's Beauty Begins with Her Health</h4>
-              <p>At SoCo Medspa, we believe that beauty shines brightest when it reflects natural harmony and confidence. Guided by the expertise of our founder, Dr. Suh, a board-certified OB-GYN, and supported by a team of highly skilled medical professionals with extensive experience in aesthetic procedures, we are committed to delivering treatments that prioritize your well-being and enhance your natural beauty.</p>
-              <p>Our philosophy on treatments is very simple: We are a place that completes natural beauty. Instead of excessive procedures, we aim to achieve a natural aesthetic with only the treatments that are truly necessary.</p>
-              <p>At SoCo, we strive to create an environment where you feel welcome and cared for—just like visiting a close friend. We are more than a medspa; we are a place where relationships are built, trust is nurtured, and beauty is celebrated.</p>
-              <p className="mb-0">We look forward to being a part of your journey to enhanced confidence and timeless beauty. At SoCo Medspa, you are always at the heart of what we do.</p>
+              <h4>Experienced Legal Advocate</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+              <p>Aliquam quis dolor mauris. Integer nisi magna, semper eu faucibus et, vestibulum quis ligula. Phasellus sagittis mollis venenatis. Aenean sed augue non felis blandit blandit. Curabitur a posuere enim. Aliquam luctus ipsum a condimentum finibus. Aliquam in enim a sapien maximus porttitor. Nunc et mauris vel dolor consequat hendrerit vitae non lorem. Morbi iaculis tellus quis ex aliquet, eu viverra diam pellentesque. Nunc in dolor vitae enim pharetra pulvinar. Fusce fringilla nisl id rhoncus vulputate. Nulla ut posuere ante. </p>
+              <p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Us Section */}
+      <section id="why-us" className="why-us section">
+        <div className="container">
+          <div className="row g-0">
+            <div className="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/images/about/why-us-bg.jpg" alt="" />
+            </div>
+            <div className="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
+            <Swiper
+             modules={[Autoplay, Pagination, Navigation]}
+             loop={true}
+             speed={600}
+             autoplay={{ delay: 5000 }}
+             slidesPerView={'auto'}
+             centeredSlides={true}
+             pagination={{ el: '.swiper-pagination', type: 'bullets', clickable: true }}
+             navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }}
+           >
+             <SwiperSlide>
+               <div className="item">
+                 <h3 className="mb-3">Let's grow your business together</h3>
+                 <h4 className="mb-3">Optio reiciendis accusantium iusto architecto at quia minima maiores quidem, dolorum.</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam perferendis asperiores explicabo vel tempore velit totam, natus nesciunt accusantium dicta quod quibusdam ipsum maiores nobis non, eum. Ullam reiciendis dignissimos laborum aut, magni voluptatem velit doloribus quas sapiente optio.</p>
+               </div>
+             </SwiperSlide>
+             <SwiperSlide>
+               <div className="item">
+                 <h3 className="mb-3">Unde perspiciatis ut repellat dolorem</h3>
+                 <h4 className="mb-3">Amet cumque nam sed voluptas doloribus iusto. Dolorem eos aliquam quis.</h4>
+                 <p>Dolorem quia fuga consectetur voluptatem. Earum consequatur nulla maxime necessitatibus cum accusamus. Voluptatem dolorem ut numquam dolorum delectus autem veritatis facilis. Et ea ut repellat ea. Facere est dolores fugiat dolor.</p>
+               </div>
+             </SwiperSlide>
+             <SwiperSlide>
+               <div className="item">
+                 <h3 className="mb-3">Aliquid non alias minus</h3>
+                 <h4 className="mb-3">Necessitatibus voluptatibus explicabo dolores a vitae voluptatum.</h4>
+                 <p>Neque voluptates aut. Soluta aut perspiciatis porro deserunt. Voluptate ut itaque velit. Aut consectetur voluptatem aspernatur sequi sit laborum. Voluptas enim dolorum fugiat aut.</p>
+               </div>
+             </SwiperSlide>
+             <SwiperSlide>
+               <div className="item">
+                 <h3 className="mb-3">Necessitatibus suscipit non voluptatem quibusdam</h3>
+                 <h4 className="mb-3">Tempora quos est ut quia adipisci ut voluptas. Deleniti laborum soluta nihil est. Eum similique neque autem ut.</h4>
+                 <p>Ut rerum et autem vel. Et rerum molestiae aut sit vel incidunt sit at voluptatem. Saepe dolorem et sed voluptate impedit. Ad et qui sint at qui animi animi rerum.</p>
+               </div>
+             </SwiperSlide>
+           </Swiper>
+           <div className="swiper-pagination"></div>
+           <div className="swiper-button-prev"></div>
+           <div className="swiper-button-next"></div>
             </div>
           </div>
         </div>
