@@ -1,7 +1,19 @@
-import React, { useState } from 'react';
-import { Carousel, Button } from 'react-bootstrap';
+// import React, { useState } from 'react';
+// import { Carousel, Button } from 'react-bootstrap';
+import React, { useState, useEffect } from 'react';
+import { Carousel, Button, Modal } from 'react-bootstrap';
 
 const Home = () => {
+  const [showPopup, setShowPopup] = useState(true); // Initially show the popup
+
+  useEffect(() => {
+    // Optional: add logic here to control when the popup shows, e.g., only on first visit
+    // For now, it shows on every page load.
+  }, []);
+
+  const handleClosePopup = () => {
+    setShowPopup(false);
+  };
   // const [animate, setAnimate] = useState(true);
 
   // const handleSlideChange = () => {
@@ -63,20 +75,20 @@ const Home = () => {
       </section> */}
       <section id="hero" className="hero section dark-background">
         <img src="/assets/images/home/hero-bg.jpg" alt="" data-aos="fade-in" />
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-5">
-                <h1 data-aos="fade-up">Experience. Integrity. Results.</h1>
-                <blockquote data-aos="fade-up" data-aos-delay="100">
-                  <p>At the Law Offices of Brad J. Ahn, we provide trusted legal counsel and aggressive representation tailored to your needs. With years of experience advocating for our clients, we are committed to protecting your rights and achieving the best possible outcome for your case. Whether you're facing a complex legal challenge or seeking guidance, we stand by you every step of the way. Your future matters—let us fight for it.</p>
-                </blockquote>
-                <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
-                  <a href="/contact" className="btn-get-started">Get Legal Help Now</a>
-                  <a href="https://www.youtube.com/shorts/RqrIaWER0m8" className="glightbox btn-watch-video d-flex align-items-center" target="_blank"><i className="bi bi-play-circle"></i><span>Watch Video</span></a>
-                </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-5">
+              <h1 data-aos="fade-up">Experience. Integrity. Results.</h1>
+              <blockquote data-aos="fade-up" data-aos-delay="100">
+                <p>At the Law Offices of Brad J. Ahn, we provide trusted legal counsel and aggressive representation tailored to your needs. With years of experience advocating for our clients, we are committed to protecting your rights and achieving the best possible outcome for your case. Whether you're facing a complex legal challenge or seeking guidance, we stand by you every step of the way. Your future matters—let us fight for it.</p>
+              </blockquote>
+              <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
+                <a href="/contact" className="btn-get-started">Get Legal Help Now</a>
+                <a href="https://www.youtube.com/shorts/RqrIaWER0m8" className="glightbox btn-watch-video d-flex align-items-center" target="_blank"><i className="bi bi-play-circle"></i><span>Watch Video</span></a>
               </div>
             </div>
           </div>
+        </div>
       </section>
 
       {/* Mission Section */}
@@ -113,6 +125,21 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Popup Modal */}
+      <Modal show={showPopup} onHide={handleClosePopup}>
+        <Modal.Header closeButton>
+          <Modal.Title>Site Development Notice</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          This site is in a preliminary development phase. All images including watermarked images are temporary and will be replaced with licensable versions after approval.
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClosePopup}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </>
 
 
