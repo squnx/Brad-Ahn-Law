@@ -1,28 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-
-
-<script type="application/json" className="swiper-config">
-{JSON.stringify({ // Use JSON.stringify() to convert the object to a string
-  "loop": true,
-  "speed": 600,
-  "autoplay": {
-    "delay": 5000
-  },
-  "slidesPerView": "auto",
-  "centeredSlides": true,
-  "pagination": {
-    "el": ".swiper-pagination",
-    "type": "bullets",
-    "clickable": true
-  },
-  "navigation": {
-    "nextEl": ".swiper-button-next",
-    "prevEl": ".swiper-button-prev"
-  }
-})}
-</script>
+import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper/modules';
 
 const About = () => {
   return (
@@ -46,7 +24,7 @@ const About = () => {
       <section id="about" className="about section">
         <div className="container section-title" data-aos="fade-up">
           <h2>Brad J. Ahn</h2>
-          {/* <p>Your Path to Radiant Health and Beauty</p> */}
+          {/* <p>Lorem ipsum dolor sit amet</p> */}
         </div>
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row gy-4 justify-content-center">
@@ -66,22 +44,26 @@ const About = () => {
 
       {/* Why Us Section */}
       <section id="why-us" className="why-us section">
+        <div className="container section-title" data-aos="fade-up">
+          <h2>Brad J. Ahn</h2>
+        </div>
         <div className="container">
           <div className="row g-0">
             <div className="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100">
               <img src="assets/images/about/why-us-bg.jpg" alt="" />
             </div>
             <div className="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
+            
             <Swiper
-             modules={[Autoplay, Pagination, Navigation]}
-             loop={true}
-             speed={600}
-             autoplay={{ delay: 5000 }}
-             slidesPerView={'auto'}
-             centeredSlides={true}
-             pagination={{ el: '.swiper-pagination', type: 'bullets', clickable: true }}
-             navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }}
-           >
+              modules={[Autoplay, Pagination, Navigation, EffectFade]}
+              effect="fade"
+              fadeEffect={{ crossFade: true }} // Ensures proper fade transition
+              loop={true}
+              speed={800}
+              autoplay={{ delay: 5000 }}
+              pagination={{ clickable: true }}
+              navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }}
+            >
              <SwiperSlide>
                <div className="item">
                  <h3 className="mb-3">Let's grow your business together</h3>
@@ -110,10 +92,10 @@ const About = () => {
                  <p>Ut rerum et autem vel. Et rerum molestiae aut sit vel incidunt sit at voluptatem. Saepe dolorem et sed voluptate impedit. Ad et qui sint at qui animi animi rerum.</p>
                </div>
              </SwiperSlide>
-           </Swiper>
            <div className="swiper-pagination"></div>
            <div className="swiper-button-prev"></div>
            <div className="swiper-button-next"></div>
+           </Swiper>
             </div>
           </div>
         </div>

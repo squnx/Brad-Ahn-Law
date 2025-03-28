@@ -65,13 +65,13 @@ const Home = () => {
         <img src="/assets/images/home/hero-bg.jpg" alt="" data-aos="fade-in" />
           <div className="container">
             <div className="row">
-              <div className="col-xl-4">
-                <h1 data-aos="fade-up">Focus On What Matters</h1>
+              <div className="col-xl-5">
+                <h1 data-aos="fade-up">Experience. Integrity. Results.</h1>
                 <blockquote data-aos="fade-up" data-aos-delay="100">
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis cum recusandae eum laboriosam voluptatem repudiandae odio, vel exercitationem officiis provident minima. </p>
+                  <p>At the Law Offices of Brad J. Ahn, we provide trusted legal counsel and aggressive representation tailored to your needs. With years of experience advocating for our clients, we are committed to protecting your rights and achieving the best possible outcome for your case. Whether you're facing a complex legal challenge or seeking guidance, we stand by you every step of the way. Your future matters—let us fight for it.</p>
                 </blockquote>
                 <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
-                  <a href="#about" className="btn-get-started">Call To Action</a>
+                  <a href="/contact" className="btn-get-started">Get Legal Help Now</a>
                   <a href="https://www.youtube.com/shorts/RqrIaWER0m8" className="glightbox btn-watch-video d-flex align-items-center" target="_blank"><i className="bi bi-play-circle"></i><span>Watch Video</span></a>
                 </div>
               </div>

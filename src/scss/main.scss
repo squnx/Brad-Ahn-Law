@@ -150,6 +150,7 @@ h6 {
 
       &:focus {
         color: var(--nav-hover-color);
+        font-weight: 700;
       }
     }
 
@@ -624,6 +625,10 @@ footer {
     &.about-bg {
       background-position: center -190px;
     }
+    
+    &.contact-bg {
+      background-position: center -100px;
+    }
   }
 }
 
@@ -802,8 +807,9 @@ section,
 # Why Us Section
 --------------------------------------------------------------*/
 .why-us {
+  background-color: color-mix(in srgb, var(--default-color), transparent 97%);
+
   .img-bg {
-    min-height: 500px;
     position: relative;
 
     img {
@@ -817,10 +823,6 @@ section,
     }
   }
 
-  .slides {
-    background-color: color-mix(in srgb, var(--default-color), transparent 97%);
-  }
-
   h3 {
     font-size: 24px;
     font-weight: 700;
@@ -831,9 +833,9 @@ section,
     font-weight: 300;
     color: color-mix(in srgb, var(--default-color), transparent 30%);
   }
-
+  
   .swiper {
-    margin: 140px 140px 120px 140px;
+    margin: 0 40px;
     overflow: hidden;
   }
 
@@ -845,6 +847,7 @@ section,
   .swiper-button-next:after {
     font-size: 24px;
     color: color-mix(in srgb, var(--default-color), transparent 50%);
+    display: none;
   }
 
   .swiper-button-prev {
@@ -856,7 +859,6 @@ section,
   }
 
   .swiper-pagination {
-    margin-top: 30px;
     position: relative;
 
     .swiper-pagination-bullet {

@@ -69,7 +69,9 @@ const Header = () => {
           {/* Uncomment the line below if you also wish to use an image logo */}
           {/* <img src="assets/img/logo.png" alt="" /> */}
           <h1 className="sitename">Brad Ahn Law</h1>
-          {/* Your Rights, Our Priority */}
+          {/* Your Rights, Our Priority. */}
+          {/* Defending. Resolving. Winning. */}
+          {/* Your Justice, Our Commitment. */}
         </a>
         <nav id="navmenu" className="navmenu">
           <ul>
