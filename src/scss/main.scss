@@ -58,8 +58,8 @@ h6 {
     line-height: 1;
 
     img {
-      max-height: 32px;
-      margin-right: 8px;
+      max-height: 60px;
+      // margin-right: 8px;
     }
 
     h1 {
@@ -805,10 +805,10 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Why Us Section
+# Image-Left & Swiper-Right Section
 --------------------------------------------------------------*/
-.why-us {
-  background-color: color-mix(in srgb, var(--default-color), transparent 97%);
+.imageL-swiperR {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 80%);
 
   .img-bg {
     position: relative;
@@ -873,9 +873,9 @@ section,
 }
 
 @media (max-width: 1200px) {
-  .why-us {
+  .imageL-swiperR {
     .swiper {
-      margin: 60px 60px 40px 60px;
+      margin: 0 40px;
     }
 
     .swiper-button-prev,
@@ -886,11 +886,10 @@ section,
 }
 
 @media (max-width: 575px) {
-  .why-us .swiper {
-    margin: 40px 40px 20px 40px;
+  .imageL-swiperR .swiper {
+    margin: 0 40px;
   }
 }
-
 
 /*--------------------------------------------------------------
 # Mission Section
@@ -1057,18 +1056,17 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Testimonial Section
+# Testimonial/Success Stories Section
 --------------------------------------------------------------*/
 .testimonial {
-  --default-color: #ffffff;
+  // --default-color: #ffffff;
   --background-color: var(--alt-background-color);
-  --heading-color: #ffffff;
-  padding: 50px 0;
+  // --heading-color: #ffffff;
   position: relative;
 
   &:before {
     content: "";
-    background: color-mix(in srgb, var(--background-color), transparent 30%);
+    background: color-mix(in srgb, var(--background-color), transparent 10%);
     position: absolute;
     inset: 0;
     z-index: 2;
@@ -1104,7 +1102,7 @@ section,
     .testimonial-img {
       width: 120px;
       border-radius: 50%;
-      border: 4px solid var(--background-color);
+      border: 4px solid var(--accent-color);
       margin: 0 auto;
     }
 
@@ -1242,6 +1240,30 @@ section,
 
   .tab-pane.active {
     animation: fadeIn 0.5s ease-out;
+  }
+
+  .tab-pane {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: .5rem;
+
+      li {
+        display: flex;
+      }
+
+      i {
+        color: var(--accent-color);
+        font-size: 18px;
+        padding-right: 5px;
+        font-size: 12px;
+        line-height: 24px;
+      }
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
   }
 
   .details {

@@ -7,14 +7,14 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
+import Practice from './pages/Practice';
+import Contact from './pages/Contact';
 // import Tlsr from './pages/Tlsr';
-// import Facial from './pages/Facial';
 // import Wellness from './pages/Wellness';
 // import Kadvanced from './pages/Kadvanced';
 // import Treatments from './pages/Treatments';
 // import Promos from './pages/Promos';
 // import PromosGalleryModal from './pages/PromosGalleryModal';
-import Contact from './pages/Contact';
 import ScrollToTop from './components/ScrollToTop';
 
 // const TRACKING_ID = "G-PS4R3NZR8Y"; // Replace with your actual Measurement ID
@@ -42,6 +42,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/practice" element={<Practice />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

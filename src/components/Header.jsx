@@ -67,23 +67,27 @@ const Header = () => {
       <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
         <a href="/" className="logo d-flex align-items-center">
           {/* Uncomment the line below if you also wish to use an image logo */}
-          {/* <img src="assets/img/logo.png" alt="" /> */}
-          <h1 className="sitename">Brad Ahn Law</h1>
+          <img src="logo-1-600x190.png" alt="Brad Ahn Law Logo" />
+          <img src="logo-5-920x260.png" alt="Brad Ahn Law Logo" />
+          {/* <h1 className="sitename">Brad Ahn Law</h1> */}
           {/* Your Rights, Our Priority. */}
           {/* Defending. Resolving. Winning. */}
           {/* Your Justice, Our Commitment. */}
+          {/* Your Case. Our Focus. */}
         </a>
         <nav id="navmenu" className="navmenu">
           <ul>
             <li><NavLink to="/" activeclassname="active">Home</NavLink></li>
             <li><NavLink to="/about" activeclassname="active">About</NavLink></li>
+            <li><NavLink to="/practice" activeclassname="active">Practice Areas</NavLink></li>
+            <li><NavLink to="/contact" activeclassname="active">Contact</NavLink></li>
             {/* <li><a href="index.html" className="active">Home<br /></a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="team.html">Team</a></li>
             <li><a href="blog.html">Blog</a></li> */}
-            <li className="dropdown"><a href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
+            {/* <li className="dropdown"><a href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="#">Dropdown 1</a></li>
                 <li className="dropdown"><a href="#"><span>Deep Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -99,9 +103,7 @@ const Header = () => {
                 <li><a href="#">Dropdown 3</a></li>
                 <li><a href="#">Dropdown 4</a></li>
               </ul>
-            </li>
-            {/* <li><a href="contact.html">Contact</a></li> */}
-            <li><NavLink to="/contact" activeclassname="active">Contact</NavLink></li>
+            </li> */}
           </ul>
           <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
