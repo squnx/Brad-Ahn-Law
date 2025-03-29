@@ -67,8 +67,8 @@ const Header = () => {
       <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
         <a href="/" className="logo d-flex align-items-center">
           {/* Uncomment the line below if you also wish to use an image logo */}
-          <img src="logo-1-600x190.png" alt="Brad Ahn Law Logo" />
-          <img src="logo-5-920x260.png" alt="Brad Ahn Law Logo" />
+          {/* <img src="logo-1-600x190.png" alt="Brad Ahn Law Logo" /> */}
+          <img src="logo-5-850x260.png" alt="Brad Ahn Law Logo" />
           {/* <h1 className="sitename">Brad Ahn Law</h1> */}
           {/* Your Rights, Our Priority. */}
           {/* Defending. Resolving. Winning. */}
