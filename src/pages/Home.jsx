@@ -100,8 +100,8 @@ const Home = () => {
                 <div className="img">
                   <img src="/assets/images/place-holder-450x250.jpg" alt="Wellness-Focused MedSpa" className="img-fluid" />
                 </div>
-                <h2 className="title">Lorem ipsum dolor</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam perferendis asperiores explicabo vel tempore velit totam, natus nesciunt accusantium dicta quod quibusdam ipsum maiores nobis non, eum. Ullam reiciendis dignissimos laborum aut, magni voluptatem velit doloribus quas sapiente optio.</p>
+                <h2 className="title">History of the firm</h2>
+                <p>Since 2002, Brad Ahn has been a trusted advocate in Fullerton, CA, offering personalized legal care. We represent individuals, insurance companies, and building owners with expertise, particularly in personal injury matters. Expect dedicated service and a strong commitment to your legal needs from our established firm.</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
@@ -109,8 +109,8 @@ const Home = () => {
                 <div className="img">
                   <img src="/assets/images/place-holder-450x250.jpg" alt="Natural Rejuvenation Pursuits" className="img-fluid" />
                 </div>
-                <h2 className="title">Lorem ipsum dolor</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam perferendis asperiores explicabo vel tempore velit totam, natus nesciunt accusantium dicta quod quibusdam ipsum maiores nobis non, eum. Ullam reiciendis dignissimos laborum aut, magni voluptatem velit doloribus quas sapiente optio.</p>
+                <h2 className="title">Mission and values</h2>
+                <p>At the Law Offices of Brad J. Ahn, our mission is to provide compassionate and effective legal representation to individuals and businesses in need. We value integrity, client-centered communication, and a relentless pursuit of justice. We are committed to building strong client relationships and achieving the best possible outcomes for every case.</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
@@ -118,8 +118,8 @@ const Home = () => {
                 <div className="img">
                   <img src="/assets/images/place-holder-450x250.jpg" alt="Proud of K-Beauty" className="img-fluid" />
                 </div>
-                <h2 className="title">Lorem ipsum dolor</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam perferendis asperiores explicabo vel tempore velit totam, natus nesciunt accusantium dicta quod quibusdam ipsum maiores nobis non, eum. Ullam reiciendis dignissimos laborum aut, magni voluptatem velit doloribus quas sapiente optio.</p>
+                <h2 className="title">Our Approach</h2>
+                <p>We deliver meticulous, client-focused legal strategies with clear communication. Expect tailored solutions and one-on-one attention throughout your case. Building trust, we strive for optimal outcomes through personalized guidance and unwavering advocacy. Our commitment goes beyond representation; we forge lasting client relationships.</p>
               </div>
             </div>
           </div>

@@ -849,7 +849,7 @@ section,
   }
   
   .swiper {
-    margin: 0 40px;
+    // margin: 0 40px;
     overflow: hidden;
   }
 
@@ -888,7 +888,7 @@ section,
 @media (max-width: 1200px) {
   .imageL-swiperR {
     .swiper {
-      margin: 0 40px;
+      // margin: 0 40px;
     }
 
     .swiper-button-prev,
@@ -900,7 +900,7 @@ section,
 
 @media (max-width: 575px) {
   .imageL-swiperR .swiper {
-    margin: 0 40px;
+    // margin: 0 40px;
   }
 }
 
@@ -930,6 +930,9 @@ section,
   }
 
   .mission-col {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     background: #fff;
     border-radius: 0 0 4px 4px;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
@@ -937,6 +940,7 @@ section,
 
     .img {
       position: relative;
+      flex: 0 0 auto;
 
       img {
         border-radius: 4px 4px 0 0;
@@ -944,6 +948,7 @@ section,
     }
 
     h2 {
+      flex: 0 0 auto;
       color: #000;
       text-align: center;
       font-weight: 700;
@@ -961,11 +966,12 @@ section,
     }
 
     p {
+      flex: 1 1 auto;
       font-size: 14px;
       line-height: 24px;
       color: #333;
       margin-bottom: 0;
-      padding: 0 20px 20px 20px;
+      padding: 0 20px;
     }
   }
 }
