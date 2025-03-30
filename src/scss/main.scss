@@ -874,6 +874,7 @@ section,
 
   .swiper-pagination {
     position: relative;
+    margin-top: 20px;
 
     .swiper-pagination-bullet {
       background-color: color-mix(in srgb, var(--default-color), transparent 50%);
@@ -901,6 +902,7 @@ section,
 @media (max-width: 575px) {
   .imageL-swiperR .swiper {
     margin: 0 !important;
+    padding: 0 15px;
   }
 }
 
@@ -1319,7 +1321,7 @@ section,
 @media (max-width: 992px) {
   .tabs .nav-link {
     border: 0;
-    padding: 15px;
+    padding: 12px 0 0 15px;
 
     &.active {
       color: var(--accent-color);
@@ -1333,6 +1335,10 @@ section,
   }
 
   .tabs .details p {
+    padding: 0 15px;
+  }
+
+  .tabs .tab-pane ul{
     padding: 0 15px;
   }
 }

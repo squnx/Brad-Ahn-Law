@@ -23,7 +23,7 @@ const Practice = () => {
       </div>
 
       {/* Practice Section */}
-      <section id="Practice" className="Practice section">
+      <section id="practice" className="practice section">
         <div className="container section-title" data-aos="fade-up">
           <h2>Common Injury Cases We Handle</h2>
         </div>
@@ -32,19 +32,19 @@ const Practice = () => {
             <div className="col-lg-3">
               <ul className="nav nav-tabs flex-column">
                 <li className="nav-item">
-                  <a className="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-0">Personal Injury</a>
+                  <a className="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-1">Personal Injury</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-1">Auto Accident</a>
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">Auto Accident</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">Premises Liability</a>
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-3">Premises Liability</a>
                 </li>
               </ul>
             </div>
             <div className="col-lg-9 mt-4 mt-lg-0">
               <div className="tab-content">
-                <div className="tab-pane fade active show" id="tabs-tab-0">
+                <div className="tab-pane fade active show" id="tabs-tab-1">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Personal Injury Lawsuits</h4>
@@ -59,13 +59,13 @@ const Practice = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
-                      <img src="/assets/images/place-holder-450x300.jpg" alt="Filler" className="img-fluid" />
+                        <img src="/assets/images/place-holder-450x300.jpg" alt="Filler" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is place holder</span></div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="tab-pane fade" id="tabs-tab-1">
+                <div className="tab-pane fade" id="tabs-tab-2">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Auto Accident Settlements</h4>
@@ -80,13 +80,13 @@ const Practice = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
-                      <img src="/assets/images/place-holder-450x300.jpg" alt="Filler" className="img-fluid" />
-                      <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is place holder</span></div>
+                        <img src="/assets/images/place-holder-450x300.jpg" alt="Filler" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is place holder</span></div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="tab-pane fade" id="tabs-tab-2">
+                <div className="tab-pane fade" id="tabs-tab-3">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Premises Liability Claims</h4>
@@ -120,8 +120,10 @@ const Practice = () => {
         </div>
         <div className="container">
           <div className="row g-0">
-            <div className="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/images/practice/why-us.jpg" alt="" />
+            {/* background image display from the top */}
+            <div className="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100" style={{ backgroundImage: 'url(assets/images/practice/why-us.jpg)', backgroundPosition: 'top', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+              {/* You can remove the <img> tag or leave it if you need it for alt text and SEO, but it won't be visible due to the background-image */}
+              <img src="assets/images/practice/why-us.jpg" alt="" style={{ display: 'none' }} />
             </div>
             <div className="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
 
@@ -139,34 +141,121 @@ const Practice = () => {
                   <div className="item">
                     <h3 className="mb-3">Aggressive Advocacy</h3>
                     <h4 className="mb-3">We don't back down from insurance companies or big corporations.</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam perferendis asperiores explicabo vel tempore velit totam, natus nesciunt accusantium dicta quod quibusdam ipsum maiores nobis non, eum. Ullam reiciendis dignissimos laborum aut, magni voluptatem velit doloribus quas sapiente optio.</p>
+                    <p className="mb-0">We don't just file paperwork—we fight. Insurance companies and corporations have teams of lawyers working to minimize your claim. At the Law Offices of Brad J. Ahn, we counter with relentless advocacy, leveraging decades of litigation experience to demand what you're owed. Whether through tough negotiation or courtroom battles, we never back down from holding negligent parties accountable.</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="item">
                     <h3 className="mb-3">Proven Results</h3>
                     <h4 className="mb-3">$5M+ recovered for injury clients in the past year.</h4>
-                    <p>Dolorem quia fuga consectetur voluptatem. Earum consequatur nulla maxime necessitatibus cum accusamus. Voluptatem dolorem ut numquam dolorum delectus autem veritatis facilis. Et ea ut repellat ea. Facere est dolores fugiat dolor.</p>
+                    <p className="mb-0">Results matter. Our track record speaks for itself, with millions recovered for injured clients—from six-figure settlements to multi-million-dollar jury verdicts. While past outcomes don't guarantee future results, our history of success demonstrates the skill and tenacity we bring to every case. You deserve a lawyer with a proven ability to win.</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="item">
                     <h3 className="mb-3">No upfront fees</h3>
                     <h4 className="mb-3">You pay nothing unless we win your case.</h4>
-                    <p>Neque voluptates aut. Soluta aut perspiciatis porro deserunt. Voluptate ut itaque velit. Aut consectetur voluptatem aspernatur sequi sit laborum. Voluptas enim dolorum fugiat aut.</p>
+                    <p className="mb-0">Financial stress shouldn't stop you from seeking justice. We work on a contingency basis—meaning you pay nothing unless we recover compensation for you. No hidden fees, no hourly bills. Our interests align with yours: We only succeed when you do.</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="item">
                     <h3 className="mb-3">24/7 Support</h3>
                     <h4 className="mb-3">Emergency? Call us anytime—we're here to help."</h4>
-                    <p>Ut rerum et autem vel. Et rerum molestiae aut sit vel incidunt sit at voluptatem. Saepe dolorem et sed voluptate impedit. Ad et qui sint at qui animi animi rerum.</p>
+                    <p className="mb-0">Injuries don't wait for business hours, and neither do we. Whether you have an urgent question after a car accident or need guidance during a hospital stay, our team is available around the clock. Call anytime—we're here to help when you need it most.</p>
                   </div>
                 </SwiperSlide>
                 <div className="swiper-pagination"></div>
                 <div className="swiper-button-prev"></div>
                 <div className="swiper-button-next"></div>
               </Swiper>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* How Your Case Works Section */}
+      <section id="case-work" className="case-work section">
+        <div className="container section-title" data-aos="fade-up">
+          <h2>How Your Case Works</h2>
+        </div>
+        <div className="container tabs" data-aos="fade-up" data-aos-delay="100">
+          <div className="row">
+            <div className="col-lg-3">
+              <ul className="nav nav-tabs flex-column">
+                <li className="nav-item">
+                  <a className="nav-link active show" data-bs-toggle="tab" href="#tabs-case-work-1">Free Consultation</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-case-work-2">Investigation</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-case-work-3">Negotiation</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-case-work-4">Trial (If Needed)</a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-lg-9 mt-4 mt-lg-0">
+              <div className="tab-content">
+                <div className="tab-pane fade active show" id="tabs-case-work-1">
+                  <div className="row">
+                    <div className="col-lg-8 details order-2 order-lg-1">
+                      <h4>Get Your Case Evaluated—Fast</h4>
+                      <p>Your journey to justice starts with a no-risk, no-obligation conversation. During your free consultation, we'll listen carefully to the details of your accident or injury, assess the legal merits of your case, and provide honest guidance about your options. There's no pressure—just straightforward advice about whether you have a claim and how we can help. This is your opportunity to ask questions and understand your rights before making any decisions.</p>
+                    </div>
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
+                      <div className="position-relative">
+                        <img src="/assets/images/place-holder-450x300.jpg" alt="Filler" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is place holder</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="tab-pane fade" id="tabs-case-work-2">
+                  <div className="row">
+                    <div className="col-lg-8 details order-2 order-lg-1">
+                      <h4>Building Your Case with Strong Evidence</h4>
+                      <p>If you choose to move forward, we immediately launch a thorough investigation to build an unshakable case. Our team will secure critical evidence such as police reports, surveillance footage, medical records, and expert testimony. We'll identify all liable parties—whether it's a negligent driver, a careless property owner, or a corrupt insurance company—and document every dollar you've lost in medical bills, missed wages, and other damages. The stronger our evidence, the stronger your leverage for maximum compensation.</p>
+                    </div>
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
+                      <div className="position-relative">
+                        <img src="/assets/images/place-holder-450x300.jpg" alt="Filler" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is place holder</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="tab-pane fade" id="tabs-case-work-3">
+                  <div className="row">
+                    <div className="col-lg-8 details order-2 order-lg-1">
+                      <h4>Maximizing Your Settlement</h4>
+                      <p>With the full weight of evidence behind us, we enter aggressive negotiations with insurance adjusters and defense attorneys. Unlike other firms that push for quick, lowball settlements, we use our decades of experience to counter their tactics and demand what your case is truly worth. We'll keep you informed at every stage, advising whether to accept an offer or escalate your claim—always with your best interests as the priority.</p>
+                    </div>
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
+                      <div className="position-relative">
+                        <img src="/assets/images/place-holder-450x300.jpg" alt="Filler" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is place holder</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="tab-pane fade" id="tabs-case-work-4">
+                  <div className="row">
+                    <div className="col-lg-8 details order-2 order-lg-1">
+                      <h4>We Take You to Court—And Win</h4>
+                      <p>While most cases settle out of court, we're fully prepared to take your fight to a jury if necessary. Our trial attorneys have a proven record of winning complex litigation, and we'll meticulously prepare your case for courtroom success. From selecting expert witnesses to crafting compelling arguments, we treat every trial as if it's the most important case of our careers—because to you, it is.</p>
+                    </div>
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
+                      <div className="position-relative">
+                        <img src="/assets/images/place-holder-450x300.jpg" alt="Filler" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is place holder</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
