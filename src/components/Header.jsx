@@ -68,7 +68,8 @@ const Header = () => {
         <a href="/" className="logo d-flex align-items-center">
           {/* Uncomment the line below if you also wish to use an image logo */}
           {/* <img src="logo-1-600x190.png" alt="Brad Ahn Law Logo" /> */}
-          <img src="logo-5-850x260.png" alt="Brad Ahn Law Logo" />
+          {/* <img src="logo-5-850x260.png" alt="Brad Ahn Law Logo" /> */}
+          <img src="adobe-686928770-700x200.png" alt="Brad Ahn Law Logo" />
           {/* <h1 className="sitename">Brad Ahn Law</h1> */}
           {/* Your Rights, Our Priority. */}
           {/* Defending. Resolving. Winning. */}
