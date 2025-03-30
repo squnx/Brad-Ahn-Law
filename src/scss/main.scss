@@ -849,7 +849,7 @@ section,
   }
   
   .swiper {
-    // margin: 0 40px;
+    margin: 0 40px;
     overflow: hidden;
   }
 
@@ -888,7 +888,7 @@ section,
 @media (max-width: 1200px) {
   .imageL-swiperR {
     .swiper {
-      // margin: 0 40px;
+      margin: 0 !important;
     }
 
     .swiper-button-prev,
@@ -900,7 +900,7 @@ section,
 
 @media (max-width: 575px) {
   .imageL-swiperR .swiper {
-    // margin: 0 40px;
+    margin: 0 !important;
   }
 }
 
