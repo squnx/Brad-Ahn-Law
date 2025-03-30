@@ -98,28 +98,28 @@ const Home = () => {
             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
               <div className="mission-col">
                 <div className="img">
-                  <img src="/assets/images/home/wellness-focused.jpg" alt="Wellness-Focused MedSpa" className="img-fluid" />
+                  <img src="/assets/images/place-holder-450x250.jpg" alt="Wellness-Focused MedSpa" className="img-fluid" />
                 </div>
-                <h2 className="title">Wellness-Focused MedSpa</h2>
-                <p>A wellness-focused medspa emphasizes women's wellness in addition to traditional medspa services. Unlike conventional medspas, a wellness-focused medspa highlights overall health as the foundation for beauty. These services are overseen and performed by licensed healthcare professionals, such as doctors, nurse practitioners (NPs), nurses, or aestheticians.</p>
+                <h2 className="title">Lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam perferendis asperiores explicabo vel tempore velit totam, natus nesciunt accusantium dicta quod quibusdam ipsum maiores nobis non, eum. Ullam reiciendis dignissimos laborum aut, magni voluptatem velit doloribus quas sapiente optio.</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
               <div className="mission-col">
                 <div className="img">
-                  <img src="/assets/images/home/natural-rejuvenation.jpg" alt="Natural Rejuvenation Pursuits" className="img-fluid" />
+                  <img src="/assets/images/place-holder-450x250.jpg" alt="Natural Rejuvenation Pursuits" className="img-fluid" />
                 </div>
-                <h2 className="title">Natural Rejuvenation Pursuits</h2>
-                <p>At SoCo, we prioritize natural methods for skin rejuvenation, using ingredients and techniques that stimulate the skin's healing process. Our approach boosts collagen and elastin production for long-lasting, youthful results, without relying on harsh chemicals. We take pride in enhancing your natural beauty through treatments that support your skin’s innate regenerative abilities.</p>
+                <h2 className="title">Lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam perferendis asperiores explicabo vel tempore velit totam, natus nesciunt accusantium dicta quod quibusdam ipsum maiores nobis non, eum. Ullam reiciendis dignissimos laborum aut, magni voluptatem velit doloribus quas sapiente optio.</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
               <div className="mission-col">
                 <div className="img">
-                  <img src="/assets/images/home/k-beauty.jpg" alt="Proud of K-Beauty" className="img-fluid" />
+                  <img src="/assets/images/place-holder-450x250.jpg" alt="Proud of K-Beauty" className="img-fluid" />
                 </div>
-                <h2 className="title">Proud of K-Beauty</h2>
-                <p>We take pride in K-beauty. K-beauty (Korean beauty) treatments are known for their effectiveness. With a delicate and meticulous approach, K-beauty always strives to offer the best for its clients. Driven by passion and a commitment to constant innovation, K-beauty focuses on achieving natural beauty by promoting inner health that radiates outward.</p>
+                <h2 className="title">Lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam perferendis asperiores explicabo vel tempore velit totam, natus nesciunt accusantium dicta quod quibusdam ipsum maiores nobis non, eum. Ullam reiciendis dignissimos laborum aut, magni voluptatem velit doloribus quas sapiente optio.</p>
               </div>
             </div>
           </div>

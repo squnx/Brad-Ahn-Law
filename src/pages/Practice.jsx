@@ -151,7 +151,7 @@ const Practice = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="item">
-                    <h3 className="mb-3">No Fee Guarantee</h3>
+                    <h3 className="mb-3">No upfront fees</h3>
                     <h4 className="mb-3">You pay nothing unless we win your case.</h4>
                     <p>Neque voluptates aut. Soluta aut perspiciatis porro deserunt. Voluptate ut itaque velit. Aut consectetur voluptatem aspernatur sequi sit laborum. Voluptas enim dolorum fugiat aut.</p>
                   </div>
