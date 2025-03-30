@@ -55,7 +55,6 @@ const Practice = () => {
                         <li><i className="bi bi-check2-all"></i>Dog Bites & Animal Attacks</li>
                         <li><i className="bi bi-check2-all"></i>Assault & Battery Claims</li>
                         <li><i className="bi bi-check2-all"></i>Wrongful Death Lawsuits</li>
-                        <li><i className="bi bi-check2-all"></i>Product Liability Cases</li>
                       </ul>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
@@ -77,7 +76,6 @@ const Practice = () => {
                         <li><i className="bi bi-check2-all"></i>Bicycles</li>
                         <li><i className="bi bi-check2-all"></i>Motorcycles</li>
                         <li><i className="bi bi-check2-all"></i>Pedestrians</li>
-                        <li><i className="bi bi-check2-all"></i>Product liability (defective auto parts or other equipment)</li>
                       </ul>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">

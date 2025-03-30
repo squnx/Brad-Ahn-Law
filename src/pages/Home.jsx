@@ -132,7 +132,7 @@ const Home = () => {
           <Modal.Title>Site Development Notice</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          All images on this site, which is in preliminary development, including watermarked versions, are temporary and will be replaced with licensable versions after approval.
+          Some images on this site, which is in preliminary development, including watermarked versions, are temporary and will be replaced with licensable versions after approval.
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClosePopup}>
