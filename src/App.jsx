@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Practice from './pages/Practice';
+import Case from './pages/Case';
 import Contact from './pages/Contact';
 // import Tlsr from './pages/Tlsr';
 // import Wellness from './pages/Wellness';
@@ -42,7 +43,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/practice" element={<Practice />} />
+            <Route path="/practice-areas" element={<Practice />} />
+            <Route path="/case-studies" element={<Case />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

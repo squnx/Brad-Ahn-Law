@@ -100,13 +100,11 @@ const About = () => {
         </div>
       </section>
 
-      {/* Professionals Section */}
-
-      {/* Testimonials/Success Stories Section */}
+      {/* Testimonials Section */}
       <section id="testimonial" className="testimonial section">
         <img src="/assets/images/about/bg-testimonial.jpg" className="testimonial-bg" alt="" />
         <div className="container section-title" data-aos="fade-up">
-          <h2>Success Stories</h2>
+          <h2>Testimonials</h2>
         </div>
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="swiper init-swiper">
