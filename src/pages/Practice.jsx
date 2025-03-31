@@ -8,7 +8,7 @@ const Practice = () => {
   return (
     <>
       {/* Page Title */}
-      <div className="page-title dark-background about-bg" data-aos="fade" style={{ backgroundImage: 'url(assets/images/practice/page-title-bg.jpg)' }}>
+      <div className="page-title dark-background about-bg" data-aos="fade" style={{ backgroundImage: 'url(assets/images/practice-areas/page-title-bg.jpg)' }}>
         <div className="container">
           <span>Practice Areas</span>
           <h1>Practice Areas</h1>
@@ -22,8 +22,8 @@ const Practice = () => {
         </div>
       </div>
 
-      {/* Practice Section */}
-      <section id="practice" className="practice section">
+      {/* Practice Areas Section */}
+      <section id="practice-areas" className="practice-areas section">
         <div className="container section-title" data-aos="fade-up">
           <h2>Common Injury Cases We Handle</h2>
         </div>
@@ -121,9 +121,9 @@ const Practice = () => {
         <div className="container">
           <div className="row g-0">
             {/* background image display from the top */}
-            <div className="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100" style={{ backgroundImage: 'url(assets/images/practice/why-us.jpg)', backgroundPosition: 'top', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+            <div className="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100" style={{ backgroundImage: 'url(assets/images/practice-areas/why-us.jpg)', backgroundPosition: 'top', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
               {/* You can remove the <img> tag or leave it if you need it for alt text and SEO, but it won't be visible due to the background-image */}
-              <img src="assets/images/practice/why-us.jpg" alt="" style={{ display: 'none' }} />
+              <img src="assets/images/practice-areas/why-us.jpg" alt="" style={{ display: 'none' }} />
             </div>
             <div className="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
 
