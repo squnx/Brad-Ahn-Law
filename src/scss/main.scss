@@ -1336,6 +1336,10 @@ section,
     .image-container {
       position: relative;
       /* Needed for absolute positioning of caption */
+
+      img {
+        width: 100%;
+      }
     }
 
     .image-caption {
@@ -1345,10 +1349,12 @@ section,
       width: 100%;
       background-color: rgba(0, 0, 0, 0.6);
       /* Semi-transparent background */
+      font-family: var(--heading-font);
+      font-weight: 500;
       color: var(--contrast-color);
       padding: 8px;
       margin: 0;
-      font-size: 14px;
+      font-size: 24px;
       text-align: center;
     }
 
