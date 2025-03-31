@@ -1,78 +1,22 @@
-// import React, { useState } from 'react';
-// import { Carousel, Button } from 'react-bootstrap';
-import React, { useState, useEffect } from 'react';
-import { Carousel, Button, Modal } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Carousel, Button } from 'react-bootstrap';
+// import React, { useState, useEffect } from 'react';
+// import { Carousel, Button, Modal } from 'react-bootstrap';
 
 const Home = () => {
-  const [showPopup, setShowPopup] = useState(true); // Initially show the popup
+  // const [showPopup, setShowPopup] = useState(true); // Initially show the popup
 
-  useEffect(() => {
-    // Optional: add logic here to control when the popup shows, e.g., only on first visit
-    // For now, it shows on every page load.
-  }, []);
+  // useEffect(() => {
+  //   // Optional: add logic here to control when the popup shows, e.g., only on first visit
+  //   // For now, it shows on every page load.
+  // }, []);
 
-  const handleClosePopup = () => {
-    setShowPopup(false);
-  };
-  // const [animate, setAnimate] = useState(true);
-
-  // const handleSlideChange = () => {
-  //   setAnimate(false);
-  //   setTimeout(() => setAnimate(true), 50); // Small delay to reset the animation
+  // const handleClosePopup = () => {
+  //   setShowPopup(false);
   // };
-
-  // const carouselItems = [
-  //   {
-  //     background: '/assets/images/home/hero-01.jpg',
-  //     title: 'Welcome to SoCo WM',
-  //     text: 'Living Your Best Life',
-  //     bgStyle: 'transparent-60',
-  //     buttonLink: '/tlsr',
-  //     buttonText: 'Find Wellness Treatments',
-  //   },
-  //   {
-  //     background: '/assets/images/home/hero-02.jpg',
-  //     title: 'SoCo Wellness MedSpa',
-  //     text: 'Client Excellence is Our Promise',
-  //     bgStyle: 'transparent-60',
-  //     buttonLink: '/about',
-  //     buttonText: 'Explore SoCo WM!',
-  //   },
-  //   {
-  //     background: '/assets/images/home/hero-promos.jpg',
-  //     title: 'Promos',
-  //     text: 'Exclusive Promotions & Savings at SoCo',
-  //     bgStyle: 'transparent-60',
-  //     buttonLink: '/promos',
-  //     buttonText: 'Check Out Offers!',
-  //   },
-  // ];
 
   return (
     <>
-      {/* Hero Section */}
-      {/* <section id="hero" className="hero section">
-        <div className="hero-container">
-          <Carousel fade interval={5000} controls indicators={true} pause={false} onSlide={handleSlideChange}>
-            {carouselItems.map((item, index) => (
-              <Carousel.Item key={index} className={item.bgStyle}>
-                <div className="carousel-container">
-                  <img src={item.background} alt="" data-aos="fade-in" />
-                  <div className={`container text-center ${animate ? 'zoom-out' : ''}`}>
-                    <div className="row justify-content-center">
-                      <div className="col-lg-8">
-                        <h2>{item.title}</h2>
-                        <p className="mb-0">{item.text}</p>
-                        <Button className="more" size="lg" href={item.buttonLink}>{item.buttonText}</Button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Carousel.Item>
-            ))}
-          </Carousel>
-        </div>
-      </section> */}
       <section id="hero" className="hero section dark-background">
         <img src="/assets/images/home/hero-bg.jpg" alt="Experience. Integrity. Results." data-aos="fade-in" />
         <div className="container">
@@ -127,7 +71,7 @@ const Home = () => {
       </section>
 
       {/* Popup Modal */}
-      <Modal show={showPopup} onHide={handleClosePopup}>
+      {/* <Modal show={showPopup} onHide={handleClosePopup}>
         <Modal.Header closeButton>
           <Modal.Title>Site Development Notice</Modal.Title>
         </Modal.Header>
@@ -139,7 +83,7 @@ const Home = () => {
             Close
           </Button>
         </Modal.Footer>
-      </Modal>
+      </Modal> */}
     </>
   );
 };
