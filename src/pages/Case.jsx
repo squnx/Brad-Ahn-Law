@@ -16,7 +16,7 @@ const Case = () => {
           layoutMode: 'masonry',
           percentPosition: true,
         });
-  
+
         const filters = document.querySelectorAll('.case-filters li');
         filters.forEach((filter) => {
           filter.addEventListener('click', function () {
@@ -26,7 +26,7 @@ const Case = () => {
             iso.arrange({ filter: filterValue });
           });
         });
-  
+
         // Initialize GLightbox AFTER Isotope layout is complete
         GLightbox({
           selector: '.glightbox',
@@ -61,7 +61,10 @@ const Case = () => {
             </ul>
             <div className="row gy-4 isotope-container" ref={isotopeRef} data-aos="fade-up" data-aos-delay="200">
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-injury">
-              <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                <div className="image-container">
+                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <p className="image-caption">Personal Injury 2024</p>
+                </div>
                 <div className="case-info">
                   <h4>Personal Injury 2024</h4>
                   <p>In March 2024, Mr. Thomas A., a construction worker, was severely injured in a scaffolding collapse. Our firm secured a significant settlement, covering his medical and financial losses, due to the construction company's negligence.</p>
@@ -70,77 +73,110 @@ const Case = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-accident">
-              <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                <div className="image-container">
+                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <p className="image-caption">Auto Accident 2023</p>
+                </div>
                 <div className="case-info">
                   <h4>Auto Accident 2023</h4>
                   <p>In October 2023, Ms. Sarah B. suffered severe injuries in a collision caused by a distracted driver. Our firm secured a settlement covering her medical bills, lost wages, and rehabilitation. We proved negligence through detailed investigation and expert testimony, ensuring her recovery.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-liability">
-              <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                <div className="image-container">
+                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <p className="image-caption">Premises Liability 2022</p>
+                </div>
                 <div className="case-info">
                   <h4>Premises Liability 2022</h4>
                   <p>In November 2022, Mr. David C. slipped on a wet floor at a local grocery store, suffering a fractured hip. Our firm proved the store's negligence in failing to maintain safe conditions. We secured a settlement covering his medical expenses, rehabilitation, and lost income.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-injury">
-              <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                <div className="image-container">
+                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <p className="image-caption">Personal Injury 2021</p>
+                </div>
                 <div className="case-info">
                   <h4>Personal Injury 2021</h4>
                   <p>In March 2021, Mr. Thomas A., a construction worker, was severely injured in a scaffolding collapse. Our firm secured a significant settlement, covering his medical and financial losses, due to the construction company's negligence.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-injury">
-              <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                <div className="image-container">
+                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <p className="image-caption">Personal Injury 2020</p>
+                </div>
                 <div className="case-info">
                   <h4>Personal Injury 2020</h4>
                   <p>In March 2020, Mr. Thomas A., a construction worker, was severely injured in a scaffolding collapse. Our firm secured a significant settlement, covering his medical and financial losses, due to the construction company's negligence.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-accident">
-              <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                <div className="image-container">
+                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <p className="image-caption">Auto Accident 2019</p>
+                </div>
                 <div className="case-info">
                   <h4>Auto Accident 2019</h4>
                   <p>In October 2019, Ms. Sarah B. suffered severe injuries in a collision caused by a distracted driver. Our firm secured a settlement covering her medical bills, lost wages, and rehabilitation. We proved negligence through detailed investigation and expert testimony, ensuring her recovery.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-liability">
-              <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                <div className="image-container">
+                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <p className="image-caption">Premises Liability 2018</p>
+                </div>
                 <div className="case-info">
                   <h4>Premises Liability 2018</h4>
                   <p>In November 2018, Mr. David C. slipped on a wet floor at a local grocery store, suffering a fractured hip. Our firm proved the store's negligence in failing to maintain safe conditions. We secured a settlement covering his medical expenses, rehabilitation, and lost income.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-accident">
-              <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                <div className="image-container">
+                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <p className="image-caption">Auto Accident 2017</p>
+                </div>
                 <div className="case-info">
                   <h4>Auto Accident 2017</h4>
                   <p>In October 2017, Ms. Sarah B. suffered severe injuries in a collision caused by a distracted driver. Our firm secured a settlement covering her medical bills, lost wages, and rehabilitation. We proved negligence through detailed investigation and expert testimony, ensuring her recovery.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-injury">
-              <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                <div className="image-container">
+                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <p className="image-caption">Personal Injury 2015</p>
+                </div>
                 <div className="case-info">
                   <h4>Personal Injury 2015</h4>
                   <p>In March 2015, Mr. Thomas A., a construction worker, was severely injured in a scaffolding collapse. Our firm secured a significant settlement, covering his medical and financial losses, due to the construction company's negligence.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-accident">
-              <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                <div className="image-container">
+                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <p className="image-caption">Auto Accident 2014</p>
+                </div>
                 <div className="case-info">
                   <h4>Auto Accident 2014</h4>
                   <p>In October 2014, Ms. Sarah B. suffered severe injuries in a collision caused by a distracted driver. Our firm secured a settlement covering her medical bills, lost wages, and rehabilitation. We proved negligence through detailed investigation and expert testimony, ensuring her recovery.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-liability">
-              <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                <div className="image-container">
+                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <p className="image-caption">Premises Liability 2013</p>
+                </div>
                 <div className="case-info">
                   <h4>Premises Liability 2013</h4>
                   <p>In November 2013, Mr. David C. slipped on a wet floor at a local grocery store, suffering a fractured hip. Our firm proved the store's negligence in failing to maintain safe conditions. We secured a settlement covering his medical expenses, rehabilitation, and lost income.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-liability">
-                <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                <div className="image-container">
+                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <p className="image-caption">Premises Liability 2012</p>
+                </div>
                 <div className="case-info">
                   <h4>Premises Liability 2012</h4>
                   <p>In November 2012, Mr. David C. slipped on a wet floor at a local grocery store, suffering a fractured hip. Our firm proved the store's negligence in failing to maintain safe conditions. We secured a settlement covering his medical expenses, rehabilitation, and lost income.</p>

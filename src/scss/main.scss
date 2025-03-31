@@ -628,7 +628,7 @@ footer {
     &.about-bg {
       background-position: center -190px;
     }
-    
+
     &.contact-bg {
       background-position: center -100px;
     }
@@ -919,7 +919,7 @@ section,
     font-weight: 300;
     color: color-mix(in srgb, var(--default-color), transparent 30%);
   }
-  
+
   .swiper {
     margin: 0 40px;
     overflow: hidden;
@@ -1158,7 +1158,7 @@ section,
     padding: 0 15px;
   }
 
-  .tabs .tab-pane ul{
+  .tabs .tab-pane ul {
     padding: 0 15px;
   }
 }
@@ -1311,7 +1311,8 @@ section,
       margin-bottom: 5px;
       transition: all 0.3s ease-in-out;
 
-      &:hover, &.filter-active {
+      &:hover,
+      &.filter-active {
         color: var(--accent-color);
       }
 
@@ -1328,12 +1329,32 @@ section,
   .case-item {
     position: relative;
 
+    .image-container {
+      position: relative;
+      /* Needed for absolute positioning of caption */
+    }
+
+    .image-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      /* Semi-transparent background */
+      color: white;
+      padding: 8px;
+      margin: 0;
+      font-size: 14px;
+      text-align: center;
+    }
+
     .case-info {
       opacity: 0;
       position: absolute;
       left: 30px;
       right: 30px;
-      bottom: 0;
+      // bottom: 0;
+      top: -20px; // Initial position above the final position
       z-index: 3;
       transition: all ease-in-out 0.3s;
       background: color-mix(in srgb, var(--background-color), transparent 10%);
@@ -1352,7 +1373,8 @@ section,
         // padding-right: 50px;
       }
 
-      .preview-link, .details-link {
+      .preview-link,
+      .details-link {
         position: absolute;
         right: 50px;
         font-size: 24px;
@@ -1378,7 +1400,9 @@ section,
 
     &:hover .case-info {
       opacity: 1;
-      bottom: 20px;
+      // bottom: 20px;
+      top: 20px; // Final position from top
+      transform: translateY(0); // Move to the final position
     }
   }
 }
