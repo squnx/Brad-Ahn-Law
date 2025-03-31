@@ -78,6 +78,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
+  --background-color: rgba(47, 62, 70, 1);
   --background-color: rgba(53, 79, 82, 1);
 }
 
@@ -625,7 +626,10 @@ footer {
 
 @media (min-width: 1200px) {
   .page-title {
-    &.about-bg {
+
+    &.about-bg,
+    &.practice-areas-bg,
+    &.case-studies-bg {
       background-position: center -190px;
     }
 
@@ -1341,7 +1345,7 @@ section,
       width: 100%;
       background-color: rgba(0, 0, 0, 0.6);
       /* Semi-transparent background */
-      color: white;
+      color: var(--contrast-color);
       padding: 8px;
       margin: 0;
       font-size: 14px;

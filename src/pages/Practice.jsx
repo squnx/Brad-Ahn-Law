@@ -8,7 +8,7 @@ const Practice = () => {
   return (
     <>
       {/* Page Title */}
-      <div className="page-title dark-background about-bg" data-aos="fade" style={{ backgroundImage: 'url(assets/images/practice-areas/page-title-bg.jpg)' }}>
+      <div className="page-title dark-background practice-areas-bg" data-aos="fade" style={{ backgroundImage: 'url(assets/images/practice-areas/page-title-bg.jpg)' }}>
         <div className="container">
           <span>Practice Areas</span>
           <h1>Practice Areas</h1>

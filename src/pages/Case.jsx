@@ -38,7 +38,7 @@ const Case = () => {
   return (
     <>
       {/* Page Title */}
-      <div className="page-title dark-background about-bg" data-aos="fade" style={{ backgroundImage: 'url(assets/images/about/page-title-bg.jpg)' }}>
+      <div className="page-title dark-background case-studies-bg" data-aos="fade" style={{ backgroundImage: 'url(assets/images/case-studies/page-title-bg.jpg)' }}>
         <div className="container">
           <span>Case Studies</span>
           <h1>Case Studies</h1>

@@ -8,26 +8,13 @@
   --nav-font: "Raleway",  sans-serif;
 }
 
-/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-// :root { 
-//   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-//   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-//   --heading-color: #222222; /* Color for headings, subheadings and title throughout the website */
-//   --logo-color: #34b7a7;
-//   --logo-color: #a6c835;
-//   --accent-color: #34b7a7; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-//   --accent-color: #a6c835;
-//   --accent-hover-color: #889922;
-//   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-//   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
-// }
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #2b180d; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #1b2f45; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #84a98c; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --contrast-color: #cad2c5; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
