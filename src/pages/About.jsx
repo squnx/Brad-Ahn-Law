@@ -29,7 +29,7 @@ const About = () => {
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row gy-4 justify-content-center">
             <div className="col-lg-4">
-              <img src="/assets/images/about/brad-ahn.jpg" className="img-fluid" alt="About Us" />
+              <img src="/assets/images/about/brad-ahn.jpg" className="img-fluid" alt="Brad J. Ahn" />
             </div>
             <div className="col-lg-8 content">
               <h4>Experienced Legal Advocate</h4>
@@ -49,7 +49,7 @@ const About = () => {
         <div className="container">
           <div className="row g-0">
             <div className="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/images/about/firm-philosophy.jpg" alt="" />
+              <img src="assets/images/about/firm-philosophy.jpg" alt="Firm Philosophy" />
             </div>
             <div className="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
             

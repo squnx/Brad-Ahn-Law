@@ -74,7 +74,7 @@ const Home = () => {
         </div>
       </section> */}
       <section id="hero" className="hero section dark-background">
-        <img src="/assets/images/home/hero-bg.jpg" alt="" data-aos="fade-in" />
+        <img src="/assets/images/home/hero-bg.jpg" alt="Experience. Integrity. Results." data-aos="fade-in" />
         <div className="container">
           <div className="row">
             <div className="col-xl-5">
@@ -98,7 +98,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
               <div className="mission-col">
                 <div className="img">
-                  <img src="/assets/images/place-holder-450x250.jpg" alt="Wellness-Focused MedSpa" className="img-fluid" />
+                  <img src="/assets/images/place-holder-450x250.jpg" alt="History of the firm" className="img-fluid" />
                 </div>
                 <h2 className="title">History of the firm</h2>
                 <p>Since 2002, Brad Ahn has been a trusted advocate in Fullerton, CA, offering personalized legal care. We represent individuals, insurance companies, and building owners with expertise, particularly in personal injury matters. Expect dedicated service and a strong commitment to your legal needs from our established firm.</p>
@@ -107,7 +107,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
               <div className="mission-col">
                 <div className="img">
-                  <img src="/assets/images/place-holder-450x250.jpg" alt="Natural Rejuvenation Pursuits" className="img-fluid" />
+                  <img src="/assets/images/home/mission-values.jpg" alt="Mission and values" className="img-fluid" />
                 </div>
                 <h2 className="title">Mission and values</h2>
                 <p>At the Law Offices of Brad J. Ahn, our mission is to provide compassionate and effective legal representation to individuals and businesses in need. We value integrity, client-centered communication, and a relentless pursuit of justice. We are committed to building strong client relationships and achieving the best possible outcomes for every case.</p>
@@ -116,7 +116,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
               <div className="mission-col">
                 <div className="img">
-                  <img src="/assets/images/place-holder-450x250.jpg" alt="Proud of K-Beauty" className="img-fluid" />
+                  <img src="/assets/images/home/our-approach.jpg" alt="Our Approach" className="img-fluid" />
                 </div>
                 <h2 className="title">Our Approach</h2>
                 <p>We deliver meticulous, client-focused legal strategies with clear communication. Expect tailored solutions and one-on-one attention throughout your case. Building trust, we strive for optimal outcomes through personalized guidance and unwavering advocacy. Our commitment goes beyond representation; we forge lasting client relationships.</p>

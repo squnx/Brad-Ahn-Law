@@ -59,8 +59,7 @@ const Practice = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
-                        <img src="/assets/images/place-holder-450x300.jpg" alt="Filler" className="img-fluid" />
-                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is place holder</span></div>
+                        <img src="/assets/images/practice-areas/practice-personal-injury.jpg" alt="Personal Injury" className="img-fluid" />
                       </div>
                     </div>
                   </div>
@@ -80,8 +79,7 @@ const Practice = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
-                        <img src="/assets/images/place-holder-450x300.jpg" alt="Filler" className="img-fluid" />
-                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is place holder</span></div>
+                        <img src="/assets/images/practice-areas/practice-auto-accident.jpg" alt="Auto Accident" className="img-fluid" />
                       </div>
                     </div>
                   </div>
@@ -101,8 +99,7 @@ const Practice = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
-                        <img src="/assets/images/place-holder-450x300.jpg" alt="Filler" className="img-fluid" />
-                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is place holder</span></div>
+                        <img src="/assets/images/practice-areas/practice-premises-liability.jpg" alt="Premises Liability" className="img-fluid" />
                       </div>
                     </div>
                   </div>
@@ -123,7 +120,7 @@ const Practice = () => {
             {/* background image display from the top */}
             <div className="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100" style={{ backgroundImage: 'url(assets/images/practice-areas/why-us.jpg)', backgroundPosition: 'top', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
               {/* You can remove the <img> tag or leave it if you need it for alt text and SEO, but it won't be visible due to the background-image */}
-              <img src="assets/images/practice-areas/why-us.jpg" alt="" style={{ display: 'none' }} />
+              <img src="assets/images/practice-areas/why-us.jpg" alt="Why Choose Our Firm" style={{ display: 'none' }} />
             </div>
             <div className="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
 
@@ -207,8 +204,7 @@ const Practice = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
-                        <img src="/assets/images/place-holder-450x300.jpg" alt="Filler" className="img-fluid" />
-                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is place holder</span></div>
+                        <img src="/assets/images/practice-areas/case-free-consultation.jpg" alt="Free Consultation" className="img-fluid" />
                       </div>
                     </div>
                   </div>
@@ -221,8 +217,7 @@ const Practice = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
-                        <img src="/assets/images/place-holder-450x300.jpg" alt="Filler" className="img-fluid" />
-                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is place holder</span></div>
+                        <img src="/assets/images/practice-areas/case-investigation.jpg" alt="Investigation" className="img-fluid" />
                       </div>
                     </div>
                   </div>
@@ -235,8 +230,7 @@ const Practice = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
-                        <img src="/assets/images/place-holder-450x300.jpg" alt="Filler" className="img-fluid" />
-                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is place holder</span></div>
+                        <img src="/assets/images/practice-areas/case-negotiation.jpg" alt="Negotiation" className="img-fluid" />
                       </div>
                     </div>
                   </div>
@@ -249,8 +243,7 @@ const Practice = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
-                        <img src="/assets/images/place-holder-450x300.jpg" alt="Filler" className="img-fluid" />
-                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is place holder</span></div>
+                        <img src="/assets/images/practice-areas/case-trial.jpg" alt="Trial" className="img-fluid" />
                       </div>
                     </div>
                   </div>
