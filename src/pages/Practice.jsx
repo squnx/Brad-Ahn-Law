@@ -50,11 +50,11 @@ const Practice = () => {
                       <h4>Personal Injury Lawsuits</h4>
                       <p>Personal injury claims can arise from a wide range of situations. If you've been harmed due to someone else's negligence or intentional actions, we'll fight to secure the compensation you deserve. Our experienced accident attorneys handle cases involving:</p>
                       <ul>
-                        <li><i className="bi bi-check2-all"></i>Auto Accidents</li>
-                        <li><i className="bi bi-check2-all"></i>Slip-and-Fall Incidents</li>
-                        <li><i className="bi bi-check2-all"></i>Dog Bites & Animal Attacks</li>
-                        <li><i className="bi bi-check2-all"></i>Assault & Battery Claims</li>
-                        <li><i className="bi bi-check2-all"></i>Wrongful Death Lawsuits</li>
+                        <li><i className="bi bi-symmetry-horizontal"></i>Auto Accidents</li>
+                        <li><i className="bi bi-symmetry-horizontal"></i>Slip-and-Fall Incidents</li>
+                        <li><i className="bi bi-symmetry-horizontal"></i>Dog Bites & Animal Attacks</li>
+                        <li><i className="bi bi-symmetry-horizontal"></i>Assault & Battery Claims</li>
+                        <li><i className="bi bi-symmetry-horizontal"></i>Wrongful Death Lawsuits</li>
                       </ul>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
@@ -71,11 +71,11 @@ const Practice = () => {
                       <h4>Auto Accident Settlements</h4>
                       <p>While passenger vehicles are the most common on the road, they are not the only ones involved in personal injury claims. Such claims can arise from accidents involving:</p>
                       <ul>
-                        <li><i className="bi bi-check2-all"></i>Cars</li>
-                        <li><i className="bi bi-check2-all"></i>Trucks (including commercial vehicles)</li>
-                        <li><i className="bi bi-check2-all"></i>Bicycles</li>
-                        <li><i className="bi bi-check2-all"></i>Motorcycles</li>
-                        <li><i className="bi bi-check2-all"></i>Pedestrians</li>
+                        <li><i className="bi bi-symmetry-horizontal"></i>Cars</li>
+                        <li><i className="bi bi-symmetry-horizontal"></i>Trucks (including commercial vehicles)</li>
+                        <li><i className="bi bi-symmetry-horizontal"></i>Bicycles</li>
+                        <li><i className="bi bi-symmetry-horizontal"></i>Motorcycles</li>
+                        <li><i className="bi bi-symmetry-horizontal"></i>Pedestrians</li>
                       </ul>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
@@ -92,11 +92,11 @@ const Practice = () => {
                       <h4>Premises Liability Claims</h4>
                       <p>When you work with our premises liability attorney, you can pursue financial compensation for injuries sustained on another party's property—whether public, private, or federal. Common examples of premises liability claims include:</p>
                       <ul>
-                        <li><i className="bi bi-check2-all"></i>Slip-and-fall accidents (e.g., on a wet floor in a grocery store)</li>
-                        <li><i className="bi bi-check2-all"></i>Injuries caused by a collapsing ceiling or structural failure</li>
-                        <li><i className="bi bi-check2-all"></i>Falls due to defective staircases, broken handrails, or elevator malfunctions</li>
-                        <li><i className="bi bi-check2-all"></i>Accidents resulting from inadequate lighting or poorly maintained walkways</li>
-                        <li><i className="bi bi-check2-all"></i>Harm caused by failure to comply with fire safety regulations or improper evacuation procedures</li>
+                        <li><i className="bi bi-symmetry-horizontal"></i>Slip-and-fall accidents (e.g., on a wet floor in a grocery store)</li>
+                        <li><i className="bi bi-symmetry-horizontal"></i>Injuries caused by a collapsing ceiling or structural failure</li>
+                        <li><i className="bi bi-symmetry-horizontal"></i>Falls due to defective staircases, broken handrails, or elevator malfunctions</li>
+                        <li><i className="bi bi-symmetry-horizontal"></i>Accidents resulting from inadequate lighting or poorly maintained walkways</li>
+                        <li><i className="bi bi-symmetry-horizontal"></i>Harm caused by failure to comply with fire safety regulations or improper evacuation procedures</li>
                       </ul>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
