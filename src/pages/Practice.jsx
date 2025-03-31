@@ -144,7 +144,7 @@ const Practice = () => {
                 <SwiperSlide>
                   <div className="item">
                     <h3 className="mb-3">Proven Results</h3>
-                    <h4 className="mb-3">$5M+ recovered for injury clients in the past year.</h4>
+                    <h4 className="mb-3">$50M+ recovered for injury clients in the past year.</h4>
                     <p className="mb-0">Results matter. Our track record speaks for itself, with millions recovered for injured clients—from six-figure settlements to multi-million-dollar jury verdicts. While past outcomes don't guarantee future results, our history of success demonstrates the skill and tenacity we bring to every case. You deserve a lawyer with a proven ability to win.</p>
                   </div>
                 </SwiperSlide>
