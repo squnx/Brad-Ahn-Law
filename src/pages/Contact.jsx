@@ -81,7 +81,7 @@ const Contact = () => {
                 <div className="row justify-content-center">
                   <div className="col info-wrap mb-0">
                     <h4>Our Location</h4>
-                    <p>1440 N Harbor Blvd Suite 900, Fullerton, CA 92835</p>
+                    <p>1440 North Harbor Boulevard, Suite 900, Fullerton, California 92835</p>
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.150414237624!2d-117.92809182483039!3d33.885779826502635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2a761a394dcb%3A0xe3f26659d71c612!2s1440%20N%20Harbor%20Blvd%20%23900%2C%20Fullerton%2C%20CA%2092835!5e0!3m2!1sen!2sus!4v1743118911968!5m2!1sen!2sus"
                       style={{ border: 0, width: '100%', height: '389px' }}>
