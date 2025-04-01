@@ -1072,14 +1072,14 @@ section,
   }
 
   h3 {
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 500;
   }
 
   h4 {
     font-size: 18px;
-    font-weight: 300;
-    color: color-mix(in srgb, var(--default-color), transparent 30%);
+    // font-weight: 500;
+    // color: color-mix(in srgb, var(--default-color), transparent 30%);
   }
 
   .swiper {

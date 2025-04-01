@@ -136,29 +136,29 @@ const Practice = () => {
               >
                 <SwiperSlide>
                   <div className="item">
-                    <h3 className="mb-3">Aggressive Advocacy</h3>
-                    <h4 className="mb-3">We don't back down from insurance companies or big corporations.</h4>
+                    <h3>Aggressive Advocacy</h3>
+                    <h4 className="mb-3">We don't back down from insurance companies or big corporations</h4>
                     <p className="mb-0">We don't just file paperwork—we fight. Insurance companies and corporations have teams of lawyers working to minimize your claim. At the Law Offices of Brad J. Ahn, we counter with relentless advocacy, leveraging decades of litigation experience to demand what you're owed. Whether through tough negotiation or courtroom battles, we never back down from holding negligent parties accountable.</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="item">
-                    <h3 className="mb-3">Proven Results</h3>
-                    <h4 className="mb-3">$50M+ recovered for injury clients in the past year.</h4>
+                    <h3>Proven Results</h3>
+                    <h4 className="mb-3">$50M+ recovered for injury clients in the past year</h4>
                     <p className="mb-0">Results matter. Our track record speaks for itself, with millions recovered for injured clients—from six-figure settlements to multi-million-dollar jury verdicts. While past outcomes don't guarantee future results, our history of success demonstrates the skill and tenacity we bring to every case. You deserve a lawyer with a proven ability to win.</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="item">
-                    <h3 className="mb-3">No upfront fees</h3>
-                    <h4 className="mb-3">You pay nothing unless we win your case.</h4>
+                    <h3>No upfront fees</h3>
+                    <h4 className="mb-3">You pay nothing unless we win your case</h4>
                     <p className="mb-0">Financial stress shouldn't stop you from seeking justice. We work on a contingency basis—meaning you pay nothing unless we recover compensation for you. No hidden fees, no hourly bills. Our interests align with yours: We only succeed when you do.</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="item">
-                    <h3 className="mb-3">24/7 Support</h3>
-                    <h4 className="mb-3">Emergency? Call us anytime—we're here to help."</h4>
+                    <h3>24/7 Support</h3>
+                    <h4 className="mb-3">Emergency? Call us anytime—we're here to help</h4>
                     <p className="mb-0">Injuries don't wait for business hours, and neither do we. Whether you have an urgent question after a car accident or need guidance during a hospital stay, our team is available around the clock. Call anytime—we're here to help when you need it most.</p>
                   </div>
                 </SwiperSlide>

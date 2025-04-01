@@ -29,7 +29,7 @@ const About = () => {
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row gy-4 justify-content-center">
             <div className="col-lg-4">
-              <img src="/assets/images/about/brad-ahn.jpg" className="img-fluid" alt="Brad J. Ahn" />
+              <img src="/assets/images/about/brad-ahn.jpg" className="img-fluid" alt="10 Best Attorneys in 2019" />
             </div>
             <div className="col-lg-8 content">
               <h4>Experienced Legal Advocate</h4>
@@ -65,30 +65,30 @@ const About = () => {
             >
              <SwiperSlide>
                <div className="item">
-                 <h3 className="mb-3">Amet cumque nam sed voluptas</h3>
-                 <h4 className="mb-3">Optio reiciendis accusantium iusto architecto at quia minima maiores quidem, dolorum.</h4>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam perferendis asperiores explicabo vel tempore velit totam, natus nesciunt accusantium dicta quod quibusdam ipsum maiores nobis non, eum. Ullam reiciendis dignissimos laborum aut, magni voluptatem velit doloribus quas sapiente optio.</p>
+                 <h3>Client-Centered Advocacy</h3>
+                 <h4 className="mb-3">Your Goals Guide Our Strategy</h4>
+                 <p>We don't believe in one-size-fits-all legal solutions. Every client's situation is unique, and we listen first—to your concerns, priorities, and desired outcomes. Whether you're fighting for compensation, protecting your business, or navigating a family crisis, we craft tailored strategies that put your needs at the forefront.</p>
                </div>
              </SwiperSlide>
              <SwiperSlide>
                <div className="item">
-                 <h3 className="mb-3">Unde perspiciatis ut repellat dolorem</h3>
-                 <h4 className="mb-3">Amet cumque nam sed voluptas doloribus iusto. Dolorem eos aliquam quis.</h4>
-                 <p>Dolorem quia fuga consectetur voluptatem. Earum consequatur nulla maxime necessitatibus cum accusamus. Voluptatem dolorem ut numquam dolorum delectus autem veritatis facilis. Et ea ut repellat ea. Facere est dolores fugiat dolor.</p>
+                 <h3>Integrity Above All</h3>
+                 <h4 className="mb-3">Honest Advice, Transparent Process</h4>
+                 <p>Trust is the foundation of our practice. We'll always give you straightforward counsel, even when it's not what you want to hear. No false promises, no hidden fees. From initial consultation to case resolution, you'll know exactly where you stand and what to expect.</p>
                </div>
              </SwiperSlide>
              <SwiperSlide>
                <div className="item">
-                 <h3 className="mb-3">Aliquid non alias minus</h3>
-                 <h4 className="mb-3">Necessitatibus voluptatibus explicabo dolores a vitae voluptatum.</h4>
-                 <p>Neque voluptates aut. Soluta aut perspiciatis porro deserunt. Voluptate ut itaque velit. Aut consectetur voluptatem aspernatur sequi sit laborum. Voluptas enim dolorum fugiat aut.</p>
+                 <h3>Relentless Pursuit of Justice</h3>
+                 <h4 className="mb-3">We Fight So You Don't Have To</h4>
+                 <p>Justice isn't handed out—it's earned through preparation, persistence, and grit. We combine sharp legal insight with aggressive advocacy to challenge opponents, whether in settlement talks or at trial. When you're up against insurers, corporations, or bureaucratic systems, we level the playing field.</p>
                </div>
              </SwiperSlide>
              <SwiperSlide>
                <div className="item">
-                 <h3 className="mb-3">Necessitatibus suscipit non voluptatem quibusdam</h3>
-                 <h4 className="mb-3">Tempora quos est ut quia adipisci ut voluptas. Deleniti laborum soluta nihil est. Eum similique neque autem ut.</h4>
-                 <p>Ut rerum et autem vel. Et rerum molestiae aut sit vel incidunt sit at voluptatem. Saepe dolorem et sed voluptate impedit. Ad et qui sint at qui animi animi rerum.</p>
+                 <h3>A Legacy of Leadership</h3>
+                 <h4 className="mb-3">Mentoring the Next Generation of Advocates</h4>
+                 <p>Brad Ahn isn't just a practitioner—he's a leader. As a frequent speaker at legal conferences and mentor to young attorneys, he shapes the future of the profession. His industry roles, including 10 Best Attorneys in 2019, reflect a commitment to elevating standards of justice for all.</p>
                </div>
              </SwiperSlide>
            <div className="swiper-pagination"></div>
