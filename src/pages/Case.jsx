@@ -62,7 +62,7 @@ const Case = () => {
             <div className="row gy-4 isotope-container" ref={isotopeRef} data-aos="fade-up" data-aos-delay="200">
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-injury">
                 <div className="image-container">
-                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <img src="assets/images/case-studies/place-holder-450x300.jpg" className="img-fluid" alt="" />
                   <p className="image-caption">Personal Injury 2024</p>
                 </div>
                 <div className="case-info">
@@ -74,7 +74,7 @@ const Case = () => {
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-accident">
                 <div className="image-container">
-                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <img src="assets/images/case-studies/place-holder-450x300.jpg" className="img-fluid" alt="" />
                   <p className="image-caption">Auto Accident 2023</p>
                 </div>
                 <div className="case-info">
@@ -84,7 +84,7 @@ const Case = () => {
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-liability">
                 <div className="image-container">
-                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <img src="assets/images/case-studies/place-holder-450x300.jpg" className="img-fluid" alt="" />
                   <p className="image-caption">Premises Liability 2022</p>
                 </div>
                 <div className="case-info">
@@ -94,7 +94,7 @@ const Case = () => {
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-injury">
                 <div className="image-container">
-                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <img src="assets/images/case-studies/place-holder-450x300.jpg" className="img-fluid" alt="" />
                   <p className="image-caption">Personal Injury 2021</p>
                 </div>
                 <div className="case-info">
@@ -104,7 +104,7 @@ const Case = () => {
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-injury">
                 <div className="image-container">
-                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <img src="assets/images/case-studies/place-holder-450x300.jpg" className="img-fluid" alt="" />
                   <p className="image-caption">Personal Injury 2020</p>
                 </div>
                 <div className="case-info">
@@ -114,7 +114,7 @@ const Case = () => {
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-accident">
                 <div className="image-container">
-                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <img src="assets/images/case-studies/place-holder-450x300.jpg" className="img-fluid" alt="" />
                   <p className="image-caption">Auto Accident 2019</p>
                 </div>
                 <div className="case-info">
@@ -124,7 +124,7 @@ const Case = () => {
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-liability">
                 <div className="image-container">
-                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <img src="assets/images/case-studies/place-holder-450x300.jpg" className="img-fluid" alt="" />
                   <p className="image-caption">Premises Liability 2018</p>
                 </div>
                 <div className="case-info">
@@ -134,7 +134,7 @@ const Case = () => {
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-accident">
                 <div className="image-container">
-                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <img src="assets/images/case-studies/place-holder-450x300.jpg" className="img-fluid" alt="" />
                   <p className="image-caption">Auto Accident 2017</p>
                 </div>
                 <div className="case-info">
@@ -144,7 +144,7 @@ const Case = () => {
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-injury">
                 <div className="image-container">
-                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <img src="assets/images/case-studies/place-holder-450x300.jpg" className="img-fluid" alt="" />
                   <p className="image-caption">Personal Injury 2015</p>
                 </div>
                 <div className="case-info">
@@ -154,7 +154,7 @@ const Case = () => {
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-accident">
                 <div className="image-container">
-                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <img src="assets/images/case-studies/place-holder-450x300.jpg" className="img-fluid" alt="" />
                   <p className="image-caption">Auto Accident 2014</p>
                 </div>
                 <div className="case-info">
@@ -164,7 +164,7 @@ const Case = () => {
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-liability">
                 <div className="image-container">
-                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <img src="assets/images/case-studies/place-holder-450x300.jpg" className="img-fluid" alt="" />
                   <p className="image-caption">Premises Liability 2013</p>
                 </div>
                 <div className="case-info">
@@ -174,7 +174,7 @@ const Case = () => {
               </div>
               <div className="col-lg-4 col-md-6 case-item isotope-item filter-liability">
                 <div className="image-container">
-                  <img src="assets/images/place-holder-450x300.jpg" className="img-fluid" alt="" />
+                  <img src="assets/images/case-studies/place-holder-450x300.jpg" className="img-fluid" alt="" />
                   <p className="image-caption">Premises Liability 2012</p>
                 </div>
                 <div className="case-info">
