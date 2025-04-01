@@ -42,7 +42,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
               <div className="mission-col">
                 <div className="img">
-                  <img src="/assets/images/place-holder-450x250.jpg" alt="History of the firm" className="img-fluid" />
+                  <img src="/assets/images/home/history.jpg" alt="History of the firm" className="img-fluid" />
                 </div>
                 <h2 className="title">History of the firm</h2>
                 <p>Since 2002, Brad Ahn has been a trusted advocate in Fullerton, CA, offering personalized legal care. We represent individuals, insurance companies, and building owners with expertise, particularly in personal injury matters. Expect dedicated service and a strong commitment to your legal needs from our established firm.</p>
