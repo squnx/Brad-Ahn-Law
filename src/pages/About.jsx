@@ -102,7 +102,7 @@ const About = () => {
 
       {/* Testimonials Section */}
       <section id="testimonial" className="testimonial section">
-        <img src="/assets/images/about/bg-testimonial.jpg" className="testimonial-bg" alt="" />
+        <img src="/assets/images/about/bg-testimonial.jpg" className="testimonial-bg" alt="Law Offices of Brad J. Ahn" />
         <div className="container section-title" data-aos="fade-up">
           <h2>Testimonials</h2>
         </div>

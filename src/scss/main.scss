@@ -1178,7 +1178,7 @@ section,
 
   &:before {
     content: "";
-    background: color-mix(in srgb, var(--background-color), transparent 10%);
+    background: color-mix(in srgb, var(--background-color), transparent 20%);
     position: absolute;
     inset: 0;
     z-index: 2;
