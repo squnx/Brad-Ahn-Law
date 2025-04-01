@@ -136,7 +136,7 @@ const About = () => {
                   <SwiperSlide>
                     <div className="testimonial-item">
                       {/* <img src="/assets/images/temp/about-450x450-man.png" className="testimonial-img" alt="" /> */}
-                      <img src="/assets/images/about/testimonial-450x450-woman-a.png" className="testimonial-img" alt="" />
+                      <img src="/assets/images/about/testimonial-450x450.png" className="testimonial-img" alt="" />
                       <h4 className="mt-3">John Dow</h4>
                       <h3>Et rerum molestiae aut!</h3>
                       <p>
@@ -148,7 +148,7 @@ const About = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="testimonial-item">
-                      <img src="/assets/images/about/testimonial-450x450-woman-b.png" className="testimonial-img" alt="" />
+                      <img src="/assets/images/about/testimonial-450x450.png" className="testimonial-img" alt="" />
                       <h4 className="mt-3">John Dow</h4>
                       <h3>Et rerum molestiae aut!</h3>
                       <p>
@@ -160,7 +160,7 @@ const About = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="testimonial-item">
-                      <img src="/assets/images/about/testimonial-450x450-woman-c.png" className="testimonial-img" alt="" />
+                      <img src="/assets/images/about/testimonial-450x450.png" className="testimonial-img" alt="" />
                       <h4 className="mt-3">John Dow</h4>
                       <h3>Et rerum molestiae aut!</h3>
                       <p>
@@ -172,7 +172,7 @@ const About = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="testimonial-item">
-                      <img src="/assets/images/about/testimonial-450x450-woman-d.png" className="testimonial-img" alt="" />
+                      <img src="/assets/images/about/testimonial-450x450.png" className="testimonial-img" alt="" />
                       <h4 className="mt-3">John Dow</h4>
                       <h3>Et rerum molestiae aut!</h3>
                       <p>
@@ -184,7 +184,7 @@ const About = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="testimonial-item">
-                      <img src="/assets/images/about/testimonial-450x450-woman-e.png" className="testimonial-img" alt="" />
+                      <img src="/assets/images/about/testimonial-450x450.png" className="testimonial-img" alt="" />
                       <h4 className="mt-3">John Dow</h4>
                       <h3>Et rerum molestiae aut!</h3>
                       <p>
@@ -196,7 +196,7 @@ const About = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="testimonial-item">
-                      <img src="/assets/images/about/testimonial-450x450-woman-f.png" className="testimonial-img" alt="" />
+                      <img src="/assets/images/about/testimonial-450x450.png" className="testimonial-img" alt="" />
                       <h4 className="mt-3">John Dow</h4>
                       <h3>Et rerum molestiae aut!</h3>
                       <p>
