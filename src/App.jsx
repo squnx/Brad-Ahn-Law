@@ -8,13 +8,9 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Practice from './pages/Practice';
+import Faq from './pages/Faq';
 import Case from './pages/Case';
 import Contact from './pages/Contact';
-// import Tlsr from './pages/Tlsr';
-// import Wellness from './pages/Wellness';
-// import Kadvanced from './pages/Kadvanced';
-// import Treatments from './pages/Treatments';
-// import Promos from './pages/Promos';
 // import PromosGalleryModal from './pages/PromosGalleryModal';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -45,6 +41,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/practice-areas" element={<Practice />} />
             <Route path="/case-studies" element={<Case />} />
+            <Route path="/faq" element={<Faq />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

@@ -28,12 +28,8 @@ const Header = () => {
             <li><NavLink to="/about" activeclassname="active">About</NavLink></li>
             <li><NavLink to="/practice-areas" activeclassname="active">Practice Areas</NavLink></li>
             <li><NavLink to="/case-studies" activeclassname="active">Case Studies</NavLink></li>
+            <li><NavLink to="/faq" activeclassname="active">FAQ</NavLink></li>
             <li><NavLink to="/contact" activeclassname="active">Contact</NavLink></li>
-            {/* <li><a href="index.html" className="active">Home<br /></a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="team.html">Team</a></li>
             <li><a href="blog.html">Blog</a></li> */}
             {/* <li className="dropdown"><a href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
