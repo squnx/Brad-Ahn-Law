@@ -16,8 +16,8 @@ const Faq = () => {
       {/* Page Title */}
       <div className="page-title dark-background practice-areas-bg" data-aos="fade" style={{ backgroundImage: 'url(assets/images/practice-areas/page-title-bg.jpg)' }}>
         <div className="container">
-          <span>Faq</span>
-          <h1>Faq</h1>
+          <span>FAQ</span>
+          <h1>FAQ</h1>
           <p>Your Guide to Legal Clarity</p>
         </div>
       </div>
