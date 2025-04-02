@@ -30,7 +30,7 @@ const Header = () => {
             <li><NavLink to="/case-studies" activeclassname="active">Case Studies</NavLink></li>
             <li><NavLink to="/faq" activeclassname="active">FAQ</NavLink></li>
             <li><NavLink to="/contact" activeclassname="active">Contact</NavLink></li>
-            <li><a href="blog.html">Blog</a></li> */}
+            {/* <li><a href="blog.html">Blog</a></li> */}
             {/* <li className="dropdown"><a href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="#">Dropdown 1</a></li>
