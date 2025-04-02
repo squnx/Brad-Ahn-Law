@@ -56,16 +56,19 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="col-md-6">
-                    <input type="text" name="from_name" className="form-control" placeholder="Your Name" required />
+                    <input type="text" name="firstName" className="form-control" placeholder="First Name" required />
                   </div>
                   <div className="col-md-6">
-                    <input type="email" className="form-control" name="email" placeholder="Your Email" required />
+                    <input type="text" name="lastName" className="form-control" placeholder="Last Name" required />
                   </div>
                   <div className="col-md-6">
+                    <input type="email" className="form-control" name="email" placeholder="Email" required />
+                  </div>
+                  <div className="col-md-6">
+                    <input type="text" name="phone" className="form-control" placeholder="Phone" required />
+                  </div>
+                  <div className="col-md-12">
                     <input type="text" className="form-control" name="subject" placeholder="Subject" required />
-                  </div>
-                  <div className="col-md-6">
-                    <input type="text" className="form-control" name="phone" placeholder="Your Phone" required />
                   </div>
                   <div className="col-md-12">
                     <textarea className="form-control" name="message" rows="4" placeholder="Message" required></textarea>
