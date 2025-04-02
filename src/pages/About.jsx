@@ -32,10 +32,26 @@ const About = () => {
               <img src="/assets/images/about/brad-ahn.jpg" className="img-fluid" alt="10 Best Attorneys in 2019" />
             </div>
             <div className="col-lg-8 content">
-              <h4>Experienced Legal Advocate</h4>
-              <p><strong>Detailed biography</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <p><strong>Education and qualifications</strong> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-              <p className="mb-0"><strong>Professional affiliations</strong> Aliquam quis dolor mauris. Integer nisi magna, semper eu faucibus et, vestibulum quis ligula. Phasellus sagittis mollis venenatis. Aenean sed augue non felis blandit blandit. Curabitur a posuere enim. Aliquam luctus ipsum a condimentum finibus. Aliquam in enim a sapien maximus porttitor. Nunc et mauris vel dolor consequat hendrerit vitae non lorem. Morbi iaculis tellus quis ex aliquet, eu viverra diam pellentesque. Nunc in dolor vitae enim pharetra pulvinar. Fusce fringilla nisl id rhoncus vulputate. Nulla ut posuere ante.</p>
+              <h4>Founding Attorney | Law Offices of Brad J. Ahn</h4>
+              <p>Brad J. Ahn is a trial-tested personal injury attorney renowned for his aggressive advocacy on behalf of injured victims across California. With over 23 years of exclusive experience in personal injury litigation, Brad has built a reputation for holding negligent parties accountable—whether reckless drivers, property owners, or corporate entities.</p>
+              <p>His practice is rooted in a simple belief: Injury victims deserve uncompromising legal representation to offset the physical, financial, and emotional toll of accidents. Brad's hands-on approach ensures clients never feel like case numbers—he personally oversees every aspect of their claims, from evidence collection to trial verdicts.</p>
+              <p><strong>Notable cases include:</strong>
+                <ul>
+                  <li><i className="bi bi-symmetry-horizontal"></i>$4.2M jury verdict for a client paralyzed in a trucking accident.</li>
+                  <li><i className="bi bi-symmetry-horizontal"></i>$1.8M settlement for a slip-and-fall victim against a negligent property owner.</li>
+                  <li><i className="bi bi-symmetry-horizontal"></i>Multi-million-dollar recoveries for auto accident survivors against uninsured motorists.</li>
+                </ul>
+              </p>
+              <p className="mb-0"><strong>Education & Qualifications</strong>
+                <ul>
+                  <li><i className="bi bi-symmetry-horizontal"></i>Juris Doctor (J.D.) - Southwestern University, School of Law, 2002</li>
+                  <li><i className="bi bi-symmetry-horizontal"></i>Bachelor of Arts (B.A.) - [University], [Major], [Year]</li>
+                  <li><i className="bi bi-symmetry-horizontal"></i>Licensed in Supreme Court of the State of California, 2002</li>
+                  <li><i className="bi bi-symmetry-horizontal"></i>Certified in 10 Best Attorneys - American Institute of Personal Injury Attorneys, 2019</li>
+                </ul>
+              </p>
+
+
             </div>
           </div>
         </div>
@@ -52,49 +68,49 @@ const About = () => {
               <img src="assets/images/about/firm-philosophy.jpg" alt="Firm Philosophy" />
             </div>
             <div className="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
-            
-            <Swiper
-              modules={[Autoplay, Pagination, Navigation, EffectFade]}
-              effect="fade"
-              fadeEffect={{ crossFade: true }} // Ensures proper fade transition
-              loop={true}
-              speed={800}
-              autoplay={{ delay: 5000 }}
-              pagination={{ clickable: true }}
-              navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }}
-            >
-             <SwiperSlide>
-               <div className="item">
-                 <h3>Client-Centered Advocacy</h3>
-                 <h4 className="mb-3">Your Goals Guide Our Strategy</h4>
-                 <p>We don't believe in one-size-fits-all legal solutions. Every client's situation is unique, and we listen first—to your concerns, priorities, and desired outcomes. Whether you're fighting for compensation, protecting your business, or navigating a family crisis, we craft tailored strategies that put your needs at the forefront.</p>
-               </div>
-             </SwiperSlide>
-             <SwiperSlide>
-               <div className="item">
-                 <h3>Integrity Above All</h3>
-                 <h4 className="mb-3">Honest Advice, Transparent Process</h4>
-                 <p>Trust is the foundation of our practice. We'll always give you straightforward counsel, even when it's not what you want to hear. No false promises, no hidden fees. From initial consultation to case resolution, you'll know exactly where you stand and what to expect.</p>
-               </div>
-             </SwiperSlide>
-             <SwiperSlide>
-               <div className="item">
-                 <h3>Relentless Pursuit of Justice</h3>
-                 <h4 className="mb-3">We Fight So You Don't Have To</h4>
-                 <p>Justice isn't handed out—it's earned through preparation, persistence, and grit. We combine sharp legal insight with aggressive advocacy to challenge opponents, whether in settlement talks or at trial. When you're up against insurers, corporations, or bureaucratic systems, we level the playing field.</p>
-               </div>
-             </SwiperSlide>
-             <SwiperSlide>
-               <div className="item">
-                 <h3>A Legacy of Leadership</h3>
-                 <h4 className="mb-3">Mentoring the Next Generation of Advocates</h4>
-                 <p>Brad Ahn isn't just a practitioner—he's a leader. As a frequent speaker at legal conferences and mentor to young attorneys, he shapes the future of the profession. His industry roles, including 10 Best Attorneys in 2019, reflect a commitment to elevating standards of justice for all.</p>
-               </div>
-             </SwiperSlide>
-           <div className="swiper-pagination"></div>
-           <div className="swiper-button-prev"></div>
-           <div className="swiper-button-next"></div>
-           </Swiper>
+
+              <Swiper
+                modules={[Autoplay, Pagination, Navigation, EffectFade]}
+                effect="fade"
+                fadeEffect={{ crossFade: true }} // Ensures proper fade transition
+                loop={true}
+                speed={800}
+                autoplay={{ delay: 5000 }}
+                pagination={{ clickable: true }}
+                navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }}
+              >
+                <SwiperSlide>
+                  <div className="item">
+                    <h3>Client-Centered Advocacy</h3>
+                    <h4 className="mb-3">Your Goals Guide Our Strategy</h4>
+                    <p>We don't believe in one-size-fits-all legal solutions. Every client's situation is unique, and we listen first—to your concerns, priorities, and desired outcomes. Whether you're fighting for compensation, protecting your business, or navigating a family crisis, we craft tailored strategies that put your needs at the forefront.</p>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="item">
+                    <h3>Integrity Above All</h3>
+                    <h4 className="mb-3">Honest Advice, Transparent Process</h4>
+                    <p>Trust is the foundation of our practice. We'll always give you straightforward counsel, even when it's not what you want to hear. No false promises, no hidden fees. From initial consultation to case resolution, you'll know exactly where you stand and what to expect.</p>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="item">
+                    <h3>Relentless Pursuit of Justice</h3>
+                    <h4 className="mb-3">We Fight So You Don't Have To</h4>
+                    <p>Justice isn't handed out—it's earned through preparation, persistence, and grit. We combine sharp legal insight with aggressive advocacy to challenge opponents, whether in settlement talks or at trial. When you're up against insurers, corporations, or bureaucratic systems, we level the playing field.</p>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="item">
+                    <h3>A Legacy of Leadership</h3>
+                    <h4 className="mb-3">Mentoring the Next Generation of Advocates</h4>
+                    <p>Brad Ahn isn't just a practitioner—he's a leader. As a frequent speaker at legal conferences and mentor to young attorneys, he shapes the future of the profession. His industry roles, including 10 Best Attorneys in 2019, reflect a commitment to elevating standards of justice for all.</p>
+                  </div>
+                </SwiperSlide>
+                <div className="swiper-pagination"></div>
+                <div className="swiper-button-prev"></div>
+                <div className="swiper-button-next"></div>
+              </Swiper>
             </div>
           </div>
         </div>
