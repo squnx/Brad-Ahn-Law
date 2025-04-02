@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>
       <section id="hero" className="hero section dark-background">
-        <img src="/assets/images/home/hero-bg.jpg" alt="Experience. Integrity. Results." data-aos="fade-in" />
+        <img src="/assets/images/home/hero-bg.jpg" alt="Personal Injury Attorney Los Angeles | Law Offices of Brad J. Ahn" data-aos="fade-in" />
         <div className="container">
           <div className="row">
             <div className="col-xl-5">

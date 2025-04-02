@@ -2263,7 +2263,7 @@ section,
       border: 1px solid color-mix(in srgb, var(--accent-color), transparent 40%);
       margin-right: 15px;
       background: var(--accent-color);
-      color: var(--contrast-color);
+      color: var(--surface-color);
     }
 
     h4 {
@@ -2381,7 +2381,7 @@ section,
     }
 
     button[type=submit] {
-      color: var(--contrast-color);
+      color: var(--surface-color);
       background: var(--accent-color);
       border: 0;
       padding: 10px 30px;
