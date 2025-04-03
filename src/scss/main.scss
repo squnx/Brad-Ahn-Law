@@ -1014,6 +1014,8 @@ section,
 
     .swiper-pagination-bullet {
       background-color: color-mix(in srgb, var(--default-color), transparent 50%);
+      width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,12px));
+      height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,12px));
     }
 
     .swiper-pagination-bullet-active {
