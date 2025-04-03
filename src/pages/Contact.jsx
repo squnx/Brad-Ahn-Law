@@ -48,10 +48,10 @@ const Contact = () => {
                   </div>
                   <div className="col-lg-6">
                     <div className="info-item d-flex align-items-center">
-                      <a href="mailto:contact@bradahnlaw.com"><i className="bi bi-envelope flex-shrink-0"></i></a>
+                      <a href="mailto:info@bradahnlaw.com"><i className="bi bi-envelope flex-shrink-0"></i></a>
                       <div>
                         <h4 className="d-flex justify-content-start">Email<br /></h4>
-                        <p>contact@bradahnlaw.com</p>
+                        <p>info@bradahnlaw.com</p>
                       </div>
                     </div>
                   </div>
