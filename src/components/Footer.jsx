@@ -19,11 +19,11 @@ const Footer = () => {
               <a href="https://www.yelp.com/biz/law-offices-of-brad-j-ahn-fullerton-3" title="Yelp" target="_blank" rel="noreferrer"><i className="bi bi-yelp"></i></a>
               <a href="https://www.youtube.com/shorts/RqrIaWER0m8" title="Yelp" target="_blank" rel="noreferrer"><i className="bi bi-youtube"></i></a>
             </div>
-            <div className="copyright text-center ">
-              <p><span>Copyright</span> © {(new Date().getFullYear())} &nbsp;<strong>Law Offices of Brad J. Ahn</strong>&nbsp; <span>All Rights Reserved.</span></p>
-            </div>
             <div className="credits">
               Powered by <a href="https://mousewurx.com/" target="_blank" rel="noreferrer"><strong>mousewurx</strong></a>
+            </div>
+            <div className="copyright text-center ">
+              <p><span>Copyright</span> © {(new Date().getFullYear())} &nbsp;<strong>Law Offices of Brad J. Ahn</strong>&nbsp; <span>All Rights Reserved.</span></p>
             </div>
           </div>
         </div>
