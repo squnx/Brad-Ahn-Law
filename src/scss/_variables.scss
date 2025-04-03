@@ -17,23 +17,10 @@
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #cad2c5; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
-
-/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
-// :root {
-//   --nav-color: #444444;  /* The default color of the main navmenu links */
-//   --nav-hover-color: #34b7a7; /* Applied to main navmenu links when they are hovered over or active */
-//   --nav-hover-color: #3fbbc0;
-//   --nav-hover-color: #a6c835;
-//   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-//   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-//   --nav-dropdown-background-color: #f7fcfc; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-//   --nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
-//   --nav-dropdown-hover-color: #a6c835; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
-// }
 :root {
-  --nav-color: #ffffff;  /* The default color of the main navmenu links */
+  --nav-color: #cad2c5;  /* The default color of the main navmenu links */
   --nav-hover-color: rgba(255, 255, 255, 0.6); /* Applied to main navmenu links when they are hovered over or active */
-  --nav-hover-color: #cad2c5; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #2f3e46; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #cad2c5; /* Used for navigation links of the dropdown items in the navigation menu. */
