@@ -37,15 +37,15 @@ const About = () => {
               <p>His practice is rooted in a simple belief: Injury victims deserve uncompromising legal representation to offset the physical, financial, and emotional toll of accidents. Brad's hands-on approach ensures clients never feel like case numbers—he personally oversees every aspect of their claims, from evidence collection to trial verdicts.</p>
               <p><strong>Notable cases include:</strong>
                 <ul>
-                  <li><i className="bi bi-symmetry-horizontal"></i>$4.2M jury verdict for a client paralyzed in a trucking accident.</li>
-                  <li><i className="bi bi-symmetry-horizontal"></i>$1.8M settlement for a slip-and-fall victim against a negligent property owner.</li>
-                  <li><i className="bi bi-symmetry-horizontal"></i>Multi-million-dollar recoveries for auto accident survivors against uninsured motorists.</li>
+                  <li><i className="bi bi-symmetry-horizontal"></i>$1.2 M court actionfor a client who was secually abused.</li>
+                  <li><i className="bi bi-symmetry-horizontal"></i>$1.0 M settlement for work place discrimination.</li>
+                  <li><i className="bi bi-symmetry-horizontal"></i>$50 M+ recoveries forauto accident victims.</li>
                 </ul>
               </p>
               <p className="mb-0"><strong>Education & Qualifications</strong>
                 <ul>
                   <li><i className="bi bi-symmetry-horizontal"></i>Juris Doctor (J.D.) - Southwestern University, School of Law, 2002</li>
-                  <li><i className="bi bi-symmetry-horizontal"></i>Bachelor of Arts (B.A.) - [University], [Major], [Year]</li>
+                  {/* <li><i className="bi bi-symmetry-horizontal"></i>Bachelor of Arts (B.A.) - [University], [Major], [Year]</li> */}
                   <li><i className="bi bi-symmetry-horizontal"></i>Licensed in Supreme Court of the State of California, 2002</li>
                   <li><i className="bi bi-symmetry-horizontal"></i>Certified in 10 Best Attorneys - American Institute of Personal Injury Attorneys, 2019</li>
                 </ul>
