@@ -177,23 +177,23 @@ h6 {
       }
     }
 
-    >ul>li>a:before {
-      content: "";
-      position: absolute;
-      height: 2px;
-      bottom: -6px;
-      left: 0;
-      background-color: var(--nav-hover-color);
-      visibility: hidden;
-      width: 0px;
-      transition: all 0.3s ease-in-out 0s;
-    }
+    // >ul>li>a:before {
+    //   content: "";
+    //   position: absolute;
+    //   height: 2px;
+    //   bottom: -6px;
+    //   left: 0;
+    //   background-color: var(--nav-hover-color);
+    //   visibility: hidden;
+    //   width: 0px;
+    //   transition: all 0.3s ease-in-out 0s;
+    // }
 
-    li:hover>a:before,
-    .active:before {
-      visibility: visible;
-      width: 100%;
-    }
+    // li:hover>a:before,
+    // .active:before {
+    //   visibility: visible;
+    //   width: 100%;
+    // }
 
     li:hover>a {
       color: var(--nav-hover-color);
