@@ -47,10 +47,10 @@ const About = () => {
               </p>
               <p className="mb-0"><strong>Education & Qualifications</strong>
                 <ul>
-                  <li><i className="bi bi-symmetry-horizontal"></i>Juris Doctor (J.D.) - Southwestern University, School of Law, 2002</li>
-                  {/* <li><i className="bi bi-symmetry-horizontal"></i>Bachelor of Arts (B.A.) - [University], [Major], [Year]</li> */}
-                  <li><i className="bi bi-symmetry-horizontal"></i>Licensed in Supreme Court of the State of California, 2002</li>
-                  <li><i className="bi bi-symmetry-horizontal"></i>Certified in 10 Best Attorneys - American Institute of Personal Injury Attorneys, 2019</li>
+                  <li><i className="bi bi-symmetry-horizontal"></i>Juris Doctor (J.D.) - Southwestern University, School of Law, 2002.</li>
+                  {/* <li><i className="bi bi-symmetry-horizontal"></i>Bachelor of Arts (B.A.) - [University], [Major], [Year].</li> */}
+                  <li><i className="bi bi-symmetry-horizontal"></i>Licensed in Supreme Court of the State of California, 2002.</li>
+                  <li><i className="bi bi-symmetry-horizontal"></i>Certified in 10 Best Attorneys - American Institute of Personal Injury Attorneys, 2019.</li>
                 </ul>
               </p>
 
