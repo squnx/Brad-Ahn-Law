@@ -37,9 +37,12 @@ const About = () => {
               <p>His practice is rooted in a simple belief: Injury victims deserve uncompromising legal representation to offset the physical, financial, and emotional toll of accidents. Brad's hands-on approach ensures clients never feel like case numbers—he personally oversees every aspect of their claims, from evidence collection to trial verdicts.</p>
               <p><strong>Notable cases include:</strong>
                 <ul>
-                  <li><i className="bi bi-symmetry-horizontal"></i>$1.2 M court action for a client who was sexually abused.</li>
-                  <li><i className="bi bi-symmetry-horizontal"></i>$1.0 M settlement for work place discrimination.</li>
-                  <li><i className="bi bi-symmetry-horizontal"></i>$50 M+ recoveries for auto accident victims.</li>
+                  {/* <li><i className="bi bi-symmetry-horizontal"></i>$1.2 M court action for a client who was sexually abused.</li> */}
+                  <li><i className="bi bi-symmetry-horizontal"></i>$1.2 million court award, demonstrating commitment to survivors of sexual abuse.</li>
+                  {/* <li><i className="bi bi-symmetry-horizontal"></i>$1.0 M settlement for work place discrimination.</li> */}
+                  <li><i className="bi bi-symmetry-horizontal"></i>$1.0 million settlement, advocating for victims of workplace discrimination.</li>
+                  {/* <li><i className="bi bi-symmetry-horizontal"></i>$50 M+ recoveries for auto accident victims.</li> */}
+                  <li><i className="bi bi-symmetry-horizontal"></i>Over $50 million recovered, fighting for fair compensation for auto accident victims.</li>
                 </ul>
               </p>
               <p className="mb-0"><strong>Education & Qualifications</strong>
@@ -75,7 +78,7 @@ const About = () => {
                 fadeEffect={{ crossFade: true }} // Ensures proper fade transition
                 loop={true}
                 speed={800}
-                autoplay={{ delay: 5000 }}
+                autoplay={{ delay: 6000 }}
                 pagination={{ clickable: true }}
                 navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }}
               >
