@@ -151,21 +151,28 @@ const Practice = () => {
                   <div className="item">
                     <h3>Proven Results</h3>
                     <h4 className="mb-3">$50M+ recovered for injury clients in the past year</h4>
-                    <p className="mb-0">Results matter. Our track record speaks for itself, with millions recovered for injured clients—from six-figure settlements to multi-million-dollar jury verdicts. While past outcomes don't guarantee future results, our history of success demonstrates the skill and tenacity we bring to every case. You deserve a lawyer with a proven ability to win.</p>
+                    <p className="mb-0">Results matter. Our proven track record includes millions recovered for injured clients—from six-figure settlements to multi-million-dollar verdicts. While past successes don't guarantee future outcomes, they reflect the relentless dedication and legal expertise we bring to every case. When your future is on the line, you deserve a law firm with a demonstrated ability to win. Let our history of winning work for you.</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="item">
                     <h3>No upfront fees</h3>
                     <h4 className="mb-3">You pay nothing unless we win your case</h4>
-                    <p className="mb-0">Financial stress shouldn't stop you from seeking justice. We work on a contingency basis—meaning you pay nothing unless we recover compensation for you. No hidden fees, no hourly bills. Our interests align with yours: We only succeed when you do.</p>
+                    <p className="mb-0">Financial hardship shouldn't deny you justice. That's why we work on a contingency fee basis—you pay nothing unless we win compensation for you. No upfront costs, no hidden fees, no hourly charges. Our success is tied to yours: We only get paid when you do. This ensures we fight tirelessly for the best possible outcome, with no financial risk to you. Your recovery is our priority—call us to start with confidence.</p>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="item">
+                    <h3>Multilingual Staff</h3>
+                    <h4 className="mb-3">Bridging Languages, Building Connections</h4>
+                    <p className="mb-0">Our team includes multilingual staff who are fluent in Spanish, ensuring clear communication and culturally sensitive service for our diverse community. By offering support in multiple languages, we break down barriers and create a welcoming environment where all individuals feel understood and valued. Our staff is dedicated to meeting the unique needs of Spanish-speaking clients with professionalism and respect.</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="item">
                     <h3>24/7 Support</h3>
                     <h4 className="mb-3">Emergency? Call us anytime—we're here to help</h4>
-                    <p className="mb-0">Injuries don't wait for business hours, and neither do we. Whether you have an urgent question after a car accident or need guidance during a hospital stay, our team is available around the clock. Call anytime—we're here to help when you need it most.</p>
+                    <p className="mb-0">Injuries don't keep business hours—and neither do we. Whether you're navigating the aftermath of a car accident or seeking guidance during a hospital stay, our team is available 24/7. Day or night, we're here to answer urgent questions, provide support, and help you take the next steps. You don't have to face tough moments alone—call anytime. When you need us most, we're ready to assist.</p>
                   </div>
                 </SwiperSlide>
                 <div className="swiper-pagination"></div>

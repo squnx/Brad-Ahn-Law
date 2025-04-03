@@ -36,7 +36,7 @@ const Contact = () => {
               <form ref={form} onSubmit={sendEmail} className="php-email-form mb-0" data-aos="fade-up" data-aos-delay="300">
                 <div className="row gy-4">
                   <h4>Reach Out for Expert Legal Assistance</h4>
-                  <p className="my-0">Free Initial Consultation</p>
+                  <p className="my-0">Free Initial Consultation | Se Habla Español</p>
                   <div className="col-lg-6">
                     <div className="info-item d-flex align-items-center">
                       <a href="tel:7144493323"><i className="icon bi bi-telephone flex-shrink-0"></i></a>
