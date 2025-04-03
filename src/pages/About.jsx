@@ -39,7 +39,7 @@ const About = () => {
                 <ul>
                   <li><i className="bi bi-symmetry-horizontal"></i>$1.2 M court actionfor a client who was secually abused.</li>
                   <li><i className="bi bi-symmetry-horizontal"></i>$1.0 M settlement for work place discrimination.</li>
-                  <li><i className="bi bi-symmetry-horizontal"></i>$50 M+ recoveries forauto accident victims.</li>
+                  <li><i className="bi bi-symmetry-horizontal"></i>$50 M+ recoveries for auto accident victims.</li>
                 </ul>
               </p>
               <p className="mb-0"><strong>Education & Qualifications</strong>
