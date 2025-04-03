@@ -18,9 +18,9 @@
   --contrast-color: #cad2c5; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 :root {
-  --nav-color: #cad2c5;  /* The default color of the main navmenu links */
+  --nav-color: #ffffff;  /* The default color of the main navmenu links */
   --nav-hover-color: rgba(255, 255, 255, 0.6); /* Applied to main navmenu links when they are hovered over or active */
-  --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #cad2c5; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #2f3e46; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #cad2c5; /* Used for navigation links of the dropdown items in the navigation menu. */
