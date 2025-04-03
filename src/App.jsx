@@ -14,25 +14,25 @@ import Contact from './pages/Contact';
 // import PromosGalleryModal from './pages/PromosGalleryModal';
 import ScrollToTop from './components/ScrollToTop';
 
-// const TRACKING_ID = "G-PS4R3NZR8Y"; // Replace with your actual Measurement ID
-// ReactGA.initialize(TRACKING_ID);
+const TRACKING_ID = "G-90EJW8M2EX"; // Replace with your actual Measurement ID
+ReactGA.initialize(TRACKING_ID);
 
 // Track page views when the route changes
-// function Analytics() {
-//   const location = useLocation();
+function Analytics() {
+  const location = useLocation();
 
-//   useEffect(() => {
-//     ReactGA.send({ hitType: "pageview", page: location.pathname });
-//   }, [location]);
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: location.pathname });
+  }, [location]);
 
-//   return null;
-// }
+  return null;
+}
 
 function App() {
   return (
     <Router>
       <ScrollToTop /> {/* To ensure that the page scrolls to the top when navigating between routes */}
-      {/* Ensures analytics runs on every page change */}
+      <Analytics /> {/* Ensures analytics runs on every page change */}
       <div id="top" className="App app-container">
         <Header />
         <main className="main">
