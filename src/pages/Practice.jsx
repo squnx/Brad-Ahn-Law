@@ -136,7 +136,7 @@ const Practice = () => {
                 fadeEffect={{ crossFade: true }} // Ensures proper fade transition
                 loop={true}
                 speed={800}
-                autoplay={{ delay: 10000 }}
+                autoplay={{ delay: 6000 }}
                 pagination={{ clickable: true }}
                 navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }}
               >

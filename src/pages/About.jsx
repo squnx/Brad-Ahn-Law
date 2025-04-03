@@ -37,7 +37,7 @@ const About = () => {
               <p>His practice is rooted in a simple belief: Injury victims deserve uncompromising legal representation to offset the physical, financial, and emotional toll of accidents. Brad's hands-on approach ensures clients never feel like case numbers—he personally oversees every aspect of their claims, from evidence collection to trial verdicts.</p>
               <p><strong>Notable cases include:</strong>
                 <ul>
-                  <li><i className="bi bi-symmetry-horizontal"></i>$1.2 M court actionfor a client who was secually abused.</li>
+                  <li><i className="bi bi-symmetry-horizontal"></i>$1.2 M court action for a client who was sexually abused.</li>
                   <li><i className="bi bi-symmetry-horizontal"></i>$1.0 M settlement for work place discrimination.</li>
                   <li><i className="bi bi-symmetry-horizontal"></i>$50 M+ recoveries for auto accident victims.</li>
                 </ul>
