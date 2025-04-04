@@ -53,8 +53,6 @@ const About = () => {
                   <li><i className="bi bi-symmetry-horizontal"></i>Certified in 10 Best Attorneys - American Institute of Personal Injury Attorneys, 2019.</li>
                 </ul>
               </p>
-
-
             </div>
           </div>
         </div>
@@ -71,7 +69,6 @@ const About = () => {
               <img src="assets/images/about/firm-philosophy.jpg" alt="Firm Philosophy" />
             </div>
             <div className="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
-
               <Swiper
                 modules={[Autoplay, Pagination, Navigation, EffectFade]}
                 effect="fade"
@@ -154,49 +151,27 @@ const About = () => {
                 >
                   <SwiperSlide>
                     <div className="testimonial-item">
-                      {/* <img src="/assets/images/temp/about-450x450-man.png" className="testimonial-img" alt="" /> */}
-                      <img src="/assets/images/about/testimonial-450x450.png" className="testimonial-img" alt="" />
-                      <h4 className="mt-3">John Dow</h4>
-                      <h3>Et rerum molestiae aut!</h3>
+                      <img src="/assets/images/about/testimonial-justin.l.jpg" className="testimonial-img" alt="" />
+                      <h4 className="mt-3">Justin L.</h4>
+                      {/* <h3>Et rerum molestiae aut!</h3> */}
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
                       <p>
                         <i className="bi bi-quote quote-icon-left"></i>
-                        <span>Ut rerum et autem vel. Et rerum molestiae aut sit vel incidunt sit at voluptatem. Saepe dolorem et sed voluptate impedit. Ad et qui sint at qui animi animi rerum.</span>
+                        <span>Attorney Brad provided outstanding support after my recent car accident. He guided me through every step of the process with professionalism and care. He handled my case thoroughly and was always reliable, communicative, and incredibly helpful. I truly felt like I was in good hands from start to finish! </span>
                         <i className="bi bi-quote quote-icon-right"></i>
                       </p>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="testimonial-item">
-                      <img src="/assets/images/about/testimonial-450x450.png" className="testimonial-img" alt="" />
-                      <h4 className="mt-3">John Dow</h4>
+                      <img src="/assets/images/about/testimonial-nicole-j.jpg" className="testimonial-img" alt="" />
+                      <h4 className="mt-3">Nicole J.</h4>
                       <h3>Et rerum molestiae aut!</h3>
                       <p>
                         <i className="bi bi-quote quote-icon-left"></i>
-                        <span>Ut rerum et autem vel. Et rerum molestiae aut sit vel incidunt sit at voluptatem. Saepe dolorem et sed voluptate impedit. Ad et qui sint at qui animi animi rerum.</span>
-                        <i className="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="testimonial-item">
-                      <img src="/assets/images/about/testimonial-450x450.png" className="testimonial-img" alt="" />
-                      <h4 className="mt-3">John Dow</h4>
-                      <h3>Et rerum molestiae aut!</h3>
-                      <p>
-                        <i className="bi bi-quote quote-icon-left"></i>
-                        <span>Ut rerum et autem vel. Et rerum molestiae aut sit vel incidunt sit at voluptatem. Saepe dolorem et sed voluptate impedit. Ad et qui sint at qui animi animi rerum.</span>
-                        <i className="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="testimonial-item">
-                      <img src="/assets/images/about/testimonial-450x450.png" className="testimonial-img" alt="" />
-                      <h4 className="mt-3">John Dow</h4>
-                      <h3>Et rerum molestiae aut!</h3>
-                      <p>
-                        <i className="bi bi-quote quote-icon-left"></i>
-                        <span>Ut rerum et autem vel. Et rerum molestiae aut sit vel incidunt sit at voluptatem. Saepe dolorem et sed voluptate impedit. Ad et qui sint at qui animi animi rerum.</span>
+                        <span> I had an excellent experience working with my lawyer Brad Ahn on my car accident case. From start to finish, he was incredibly attentive to my needs, ensuring I felt supported throughout the entire process. His communication was clear, sharp, and precise, keeping me updated at every step. He handled my case with the utmost professionalism, and I couldn't be more grateful for his expertise and care. Highly recommend!</span>
                         <i className="bi bi-quote quote-icon-right"></i>
                       </p>
                     </div>
