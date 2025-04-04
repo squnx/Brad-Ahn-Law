@@ -28,7 +28,7 @@ const Home = () => {
               </blockquote>
               <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
                 <a href="/contact" className="btn-get-started">Get Legal Help Now</a>
-                <a href="https://www.youtube.com/shorts/RqrIaWER0m8" className="glightbox btn-watch-video d-flex align-items-center" target="_blank"><i className="bi bi-play-circle"></i><span>Watch Video</span></a>
+                <a href="/assets/videos/free-consultation.mp4" className="glightbox btn-watch-video d-flex align-items-center" target="_blank"><i className="bi bi-play-circle"></i><span>Watch Video</span></a>
               </div>
             </div>
           </div>
