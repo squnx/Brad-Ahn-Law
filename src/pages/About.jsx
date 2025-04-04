@@ -168,7 +168,9 @@ const About = () => {
                     <div className="testimonial-item">
                       <img src="/assets/images/about/testimonial-nicole-j.jpg" className="testimonial-img" alt="" />
                       <h4 className="mt-3">Nicole J.</h4>
-                      <h3>Et rerum molestiae aut!</h3>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
                       <p>
                         <i className="bi bi-quote quote-icon-left"></i>
                         <span> I had an excellent experience working with my lawyer Brad Ahn on my car accident case. From start to finish, he was incredibly attentive to my needs, ensuring I felt supported throughout the entire process. His communication was clear, sharp, and precise, keeping me updated at every step. He handled my case with the utmost professionalism, and I couldn't be more grateful for his expertise and care. Highly recommend!</span>
