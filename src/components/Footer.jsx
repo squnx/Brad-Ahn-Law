@@ -17,7 +17,7 @@ const Footer = () => {
               {/* <a href=""><i className="bi bi-twitter-x"></i></a> */}
               <a href="https://www.google.com/search?q=Law+Offices+of+Brad+J.+Ahn&rlz=1C1GCEU_enUS832US832&oq=Law+Offices+of+Brad+J.+Ahn&aqs=chrome..69i57j69i64j69i61l3&sourceid=chrome&ie=UTF-8#lrd=0x80c2b89b329d2f5b:0x18c7140821663c73,3" title="Google" target="_blank" rel="noreferrer"><i className="bi bi-google"></i></a>
               <a href="https://www.yelp.com/biz/law-offices-of-brad-j-ahn-fullerton-3" title="Yelp" target="_blank" rel="noreferrer"><i className="bi bi-yelp"></i></a>
-              <a href="https://youtube.com/shorts/45DH8xrxdaM" title="YouTube" target="_blank" rel="noreferrer"><i className="bi bi-youtube"></i></a>
+              <a href="https://youtube.com/shorts/wo4_UzPugKg" title="YouTube" target="_blank" rel="noreferrer"><i className="bi bi-youtube"></i></a>
             </div>
             <div className="credits">
               Powered by <a href="https://mousewurx.com/" target="_blank" rel="noreferrer"><strong>mousewurx</strong></a>
