@@ -159,7 +159,7 @@ const About = () => {
                     </div>
                     <p>
                       <i className="bi bi-quote quote-icon-left"></i>
-                      <span>Brad Ahn was very professional. I was impressed with his personalized approach and he was always available if I had questions or concerns.</span>
+                      <span>I highly recommend Brad Ahn. His professionalism was top-notch, and I was particularly impressed with the individual attention he provided. Knowing he was always available to answer my questions and concerns made a significant positive difference.</span>
                       <i className="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
