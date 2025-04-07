@@ -166,26 +166,28 @@ const About = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="testimonial-item">
-                      <img src="/assets/images/about/testimonial-nicole-j.jpg" className="testimonial-img" alt="" />
+                      <img src="/assets/images/about/testimonial-nicole.j.jpg" className="testimonial-img" alt="" />
                       <h4 className="mt-3">Nicole J.</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                       </div>
                       <p>
                         <i className="bi bi-quote quote-icon-left"></i>
-                        <span> I had an excellent experience working with my lawyer Brad Ahn on my car accident case. From start to finish, he was incredibly attentive to my needs, ensuring I felt supported throughout the entire process. His communication was clear, sharp, and precise, keeping me updated at every step. He handled my case with the utmost professionalism, and I couldn't be more grateful for his expertise and care. Highly recommend!</span>
+                        <span>I had an excellent experience working with my lawyer Brad Ahn on my car accident case. From start to finish, he was incredibly attentive to my needs, ensuring I felt supported throughout the entire process. His communication was clear, sharp, and precise, keeping me updated at every step. He handled my case with the utmost professionalism, and I couldn't be more grateful for his expertise and care. Highly recommend!</span>
                         <i className="bi bi-quote quote-icon-right"></i>
                       </p>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="testimonial-item">
-                      <img src="/assets/images/about/testimonial-450x450.png" className="testimonial-img" alt="" />
-                      <h4 className="mt-3">John Dow</h4>
-                      <h3>Et rerum molestiae aut!</h3>
+                      <img src="/assets/images/about/testimonial-isaac.y.jpg" className="testimonial-img" alt="" />
+                      <h4 className="mt-3">Isaac Y.</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
                       <p>
                         <i className="bi bi-quote quote-icon-left"></i>
-                        <span>Ut rerum et autem vel. Et rerum molestiae aut sit vel incidunt sit at voluptatem. Saepe dolorem et sed voluptate impedit. Ad et qui sint at qui animi animi rerum.</span>
+                        <span>I have been in many accidents before.  This time I was referred to attorney Brad Ahn by a close friend.  So glad I went with Brad.  The service I received was so attentive and he was always there to answer my calls.</span>
                         <i className="bi bi-quote quote-icon-right"></i>
                       </p>
                     </div>
