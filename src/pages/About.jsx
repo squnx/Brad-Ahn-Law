@@ -149,6 +149,21 @@ const About = () => {
                     },
                   }}
                 >
+                <SwiperSlide>
+                  <div className="testimonial-item">
+                    <img src="/assets/images/about/testimonial-greg.v.jpg" className="testimonial-img" alt="" />
+                    <h4 className="mt-3">Greg V.</h4>
+                    {/* <h3>Et rerum molestiae aut!</h3> */}
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                      <i className="bi bi-quote quote-icon-left"></i>
+                      <span>Brad Ahn was very professional. I was impressed with his personalized approach and he was always available if I had questions or concerns.</span>
+                      <i className="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </SwiperSlide>
                   <SwiperSlide>
                     <div className="testimonial-item">
                       <img src="/assets/images/about/testimonial-justin.l.jpg" className="testimonial-img" alt="" />
@@ -187,12 +202,12 @@ const About = () => {
                       </div>
                       <p>
                         <i className="bi bi-quote quote-icon-left"></i>
-                        <span>I have been in many accidents before.  This time I was referred to attorney Brad Ahn by a close friend.  So glad I went with Brad.  The service I received was so attentive and he was always there to answer my calls.</span>
+                        <span>Having been through numerous accidents in the past, I can honestly say my experience with attorney Brad Ahn was exceptional. A close friend's referral led me to him, and I am incredibly grateful I chose his services. The level of attentiveness I received was outstanding, and he was always readily available to answer my calls.</span>
                         <i className="bi bi-quote quote-icon-right"></i>
                       </p>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide>
+                  {/* <SwiperSlide>
                     <div className="testimonial-item">
                       <img src="/assets/images/about/testimonial-450x450.png" className="testimonial-img" alt="" />
                       <h4 className="mt-3">John Dow</h4>
@@ -203,7 +218,7 @@ const About = () => {
                         <i className="bi bi-quote quote-icon-right"></i>
                       </p>
                     </div>
-                  </SwiperSlide>
+                  </SwiperSlide> */}
                 </Swiper>
               </div>
             </div>
