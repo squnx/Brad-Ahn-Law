@@ -207,6 +207,20 @@ const About = () => {
                       </p>
                     </div>
                   </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="testimonial-item">
+                      <img src="/assets/images/about/testimonial-erik.f.jpg" className="testimonial-img" alt="" />
+                      <h4 className="mt-3">Eric F.</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        <i className="bi bi-quote quote-icon-left"></i>
+                        <span>Loved working with Brad. He has given me peace of mind when I was in an accident. He took care of everything giving me the chance to focus on my recovery.</span>
+                        <i className="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </SwiperSlide>
                   {/* <SwiperSlide>
                     <div className="testimonial-item">
                       <img src="/assets/images/about/testimonial-450x450.png" className="testimonial-img" alt="" />
